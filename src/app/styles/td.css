@@ -1,0 +1,120 @@
+.divide-two-parts {
+    display: flex;
+    gap: 85px;
+    margin: 60px 0 30px;
+}
+.first-block {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 550px;
+}
+.second-block {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 550px;
+}
+.first-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #DFA247;
+    border-radius: 10px 10px 0 0;
+}
+.second-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #2B7441;
+    border-radius: 10px 10px 0 0;
+}
+h3.block-title {
+    color: white;
+}
+.first-block-body {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second-block-body {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-button {
+    width: auto;
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 6px 15px;
+    background: #fff;
+    color: #BC7409;
+    border: 1px solid #BC7409;
+    font-weight: 300;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor:  pointer;
+}
+.second-button {
+     width: auto;
+     display: inline-block;
+     margin: 20px 0 0;
+     padding: 6px 15px;
+     background: #fff;
+     color: #2B7441;
+     border: 1px solid #2B7441;
+     font-weight: 300;
+     border-radius: 18px;
+     text-decoration: none;
+     transition: background-color 0.2s ease;
+     cursor:  pointer;
+ }
+.buttons-block {
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .divide-two-parts {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 0 20px;
+    }
+
+    .first-block,
+    .second-block {
+        width: 100%;
+    }
+
+    .first-block-header,
+    .second-block-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .first-block-body,
+    .second-block-body {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .buttons-block {
+        align-items: stretch;
+    }
+
+    .first-button,
+    .second-button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

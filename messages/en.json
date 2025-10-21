@@ -1,0 +1,896 @@
+{
+  "HomePage": {
+		"titleHighlight": "Crop Receipts",
+		"title": "a convenient financing instrument for agribusiness in Ukraine",
+		"subtitle": "Get access to resources — quickly, safely, and transparently",
+		"description": "An agrarian receipt is an effective financial instrument that allows agricultural producers to attract resources secured by future harvests, while creditors can reduce risks and work with the agricultural sector under transparent conditions.",
+		"detailsButton": "Learn more",
+		"farmersTitle": "Farmers about Crop Receipts",
+		"farmer1Text": "“At the end of the year, the products were undervalued and did not cover production costs. Thanks to Crop Receipts, we held the harvest until March and earned an additional 7 million UAH.”",
+		"farmer2Text": "“If it weren’t for the agrarian receipt, next year we would have had to reduce livestock numbers, since equipment costs are significant and our own funds are no longer enough.”",
+		"farmer3Text": "“It was difficult to obtain a loan from a bank, as the farm has no property or real estate, only outdated equipment that banks did not accept as collateral. Without Crop Receipts, I would not have been able to continue working.”",
+		"farmersName1": "Olena Martynenko",
+		"farmersName2": "Stepan Stelmakh",
+		"farmersName3": "Dmytro Suslik",
+		"farmersLocation1": "Owner of Lavanda Farm, Kyiv Region",
+		"farmersLocation2": "Owner of Vdyach Farm, Lviv Region",
+		"farmersLocation3": "Owner of Dubochok Farm, Lviv Region",
+		"creditorTitle": "Creditor about Crop Receipts",
+		"creditorText": "“An agrarian receipt is a reliable guarantee for creditors: pledged crops cannot be sold thanks to the transparent register, field and warehouse checks are open, enforcement usually happens within a day, and the default rate is less than 1.5%.”",
+		"storiesButton": "Success stories",
+		"usefullTitle": "Why is it convenient?",
+		"feature_1": "Pay with future harvest or money",
+		"feature_2": "No need to look for collateral – the future harvest is the pledge",
+		"feature_3": "Quick processing – only a minimal set of documents is required",
+		"feature_4": "No need to worry about sales – a commodity agrarian receipt is repaid with part of the harvest",
+		"feature_5": "Manage price and currency risks – additional clauses can be included in the agrarian receipt",
+		"feature_6": "Build a positive credit history"
+	},
+  "Header": {
+    "chapter1": {
+      "title": "Register of agricultural receipts",
+      "text1": "Public access",
+      "text2": "Generate receipt",
+      "text3": "Document templates",
+      "text4": "Check the land",
+      "text5": "For notaries"
+    },
+    "chapter2": {
+      "title": "About Agricultural Receipts",
+      "text1": "For creditors",
+      "text2": "For agricultural producers",
+      "text3": "For notaries",
+      "text4": "For advisors/teachers",
+      "text5": "Normative and regulatory documentation"
+    },
+    "chapter3": {
+      "title": "Notaries",
+      "text1": "Top 20 notaries",
+      "text2": "All notaries"
+    },
+    "chapter4": {
+      "title": "Useful",
+      "text1": "Judicial practice",
+      "text2": "Statistics",
+      "text3": "FAQ",
+      "text4": "History of Success"
+    },
+    "chapter5": {
+      "title": "News",
+      "text1": "News DP «Agro registers»",
+      "text2": "News in agrosphere"
+    },
+    "chapter6": "Contacts",
+    "button": "Log in to the register",
+    "button2": "Log-in"
+  },
+  "Footer": {
+    "title": "Created with the support of:",
+    "title2": "Contact Us:",
+    "text1": "2025 All rights reserved",
+    "text2": "Website Development:",
+    "adress": "01001, Kyiv-1 (post office), 22 Khreshchatyk Street, P.O. Box 85"
+
+  },
+  "Document_Templates": {
+    "block_first": {
+			"title": "For Everyone",
+			"button_text": "Public Access",
+			"text1": "The Crop Receipts Register allows users to view public information about issued Crop Receipts without authorization in the system. Users can familiarize themselves with information on the forms and territories covered by the obligations and can plan to work with them in the future.",
+			"text2": "A search in the Register can be performed using one or more of the following identifiers:",
+			"list1": [
+				"Registered receipt number in the register",
+				"Notarial form number",
+				"Debtor information (EDRPOU/TIN/Passport or Name/Full Name)",
+				"Land plot number according to the KOATUU directory"
+			],
+			"text3": "Fill in the appropriate fields and click the “Search” button. The search results will be displayed in a list below the form. To view receipt information, click on the panel in “View”.",
+			"text4": "If you plan to issue an agrarian receipt, you can download a preparatory file with an example of land plots or collateral registration for entry into the Register:",
+			"list2": ["Land plots", "Livestock collateral", "Goods collateral"],
+			"text5": "The template filling algorithm for all types of objects follows a similar sequence of actions. Therefore, let’s consider the most common case —",
+			"text5_a": "Creating the \"Land plots\" template."
+		},
+    "block_second": {
+      "title": "For Notaries",
+      "button_text": "Authorized Access",
+      "text1": "The Crop Receipts Register enables generation of receipts, creation of extracts and certificates, and performing other actions with Crop Receipts.",
+      "text2": "Authorized user status can be granted to any notary operating in Ukraine."
+    }
+  },
+  "Notaries_Extra": {
+    "title": "For Notaries",
+    "buttons": [
+      "Connection Algorithm",
+      "User Manual",
+      "Video Instructions",
+      "Frequently Asked Questions",
+      "Registry Access"
+    ],
+    "Component1": {
+      "title": "Algorithm for Connecting Private Notaries to the Agricultural Receipts Registry",
+      "steps": [
+        {
+          "number": "01",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The notary submits an application in two copies to the State Enterprise 'Agrarian Registers' expressing the intention to become a registrar of the Agricultural Receipts Registry."
+            },
+            {
+              "type": "paragraph",
+              "text": "We recommend using",
+              "bold": true,
+              "link": {
+                "text": "this application form.",
+                "href": "/Zrazok_zayavy_na_pidkluchennia_sajt_1.doc"
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "The application must include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "a copy of the certificate granting the right to perform notarial activities",
+                "a copy of the passport",
+                "a copy of the identification code (taxpayer registration number)",
+                "email address",
+                "location address",
+                "phone number",
+                "bank account details from which payment for the enterprise's services is planned."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Recommendation for convenient tracking of the application status:",
+              "bold": true
+            },
+            {
+              "type": "paragraph",
+              "text": "Send scanned copies of the original application, certificate, passport, and identification code to the email address: ",
+              "link": {
+                "text": "admindp@agroregisters.com.ua",
+                "href": "mailto:admindp@agroregisters.com.ua"
+              }
+            }
+          ]
+        },
+        {
+          "number": "02",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The State Enterprise 'Agrarian Registers', upon receiving the letter, prepares a draft agreement with the notary for connection to the Agricultural Receipts Registry, sends the agreement in electronic form, an invoice for payment for the enterprise’s services for connection to the registry, and also a form of acceptance certificate for the provided connection services to the email address indicated in the application."
+            },
+            {
+              "type": "paragraph",
+              "text": "The estimated cost of connection services (including VAT) is 1,290.00 UAH."
+            }
+          ]
+        },
+        {
+          "number": "03",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The notary pays the services of the State Enterprise 'Agrarian Registers' for connection to the Agricultural Receipts Registry based on the invoice, transferring the appropriate amount to the enterprise’s bank account."
+            }
+          ]
+        },
+        {
+          "number": "04",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The notary prepares a package for postal sending and sends to the State Enterprise 'Agrarian Registers' the documents listed in item 1, including two copies of the original application, three copies of the signed agreement regarding connection to the Agricultural Receipts Registry, a signed acceptance certificate in two copies, as well as a copy of the receipt (payment order) for payment of the State Enterprise 'Agrarian Registers' connection services."
+            },
+            {
+              "type": "paragraph",
+              "text": "Postal address of the State Enterprise 'Agrarian Registers':",
+              "bold": true
+            },
+            {
+              "type": "paragraph",
+              "text": "01001, KYIV-1 (Post Office), Khreshchatyk St., 22, P.O. Box No. 85"
+            },
+            {
+              "type": "paragraph",
+              "text": "For the purpose of actual connection to the ARR, the notary sends valid digital signature certificates (EDS) to the SE’s email address ",
+              "link": {
+                "text": "admindp@agroregisters.com.ua",
+                "href": "mailto:admindp@agroregisters.com.ua"
+              }
+            },
+            {
+              "type": "paragraph",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "number": "05",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The State Enterprise 'Agrarian Registers', after receiving the documents specified in item 4 from the notary, sends the notary’s application for registration as a registrar and one copy of the agreement to the Ministry of Agrarian Policy and Food of Ukraine with an accompanying letter."
+            },
+            {
+              "type": "paragraph",
+              "text": "From the moment the application is received by the Ministry, the notary is considered authorized as a registrar."
+            }
+          ]
+        },
+        {
+          "number": "06",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The State Enterprise 'Agrarian Registers' verifies receipt of funds from the notary, and after confirming payment, signs the acceptance certificate on its part, creates an access identifier (login) for the notary to the Agricultural Receipts Registry, prepares a card with this login, sends the signed acceptance certificate to the notary, and initiates the system password generation."
+            },
+            {
+              "type": "paragraph",
+              "text": "From the moment of receiving the login and password, the notary gains the ability to enter records into the Agricultural Receipts Registry and perform actions stipulated by regulations.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    "Component2": {
+      "title": "User Manual",
+      "manualItems": [
+        "Algorithm for Connecting Private Notaries to the Agricultural Receipts Registry",
+        "Obtaining Access Identifier to the Agricultural Receipts Registry",
+        "Using Digital Signature in the Agricultural Receipts Registry",
+        "Cryptolibrary",
+        "Public Key Certificates from Digital Signature",
+        "System Login",
+        "Authentication Using Login",
+        "Authentication Using Digital Signature File",
+        "Authentication Using Digital Signature Token",
+        "Notary System Interface",
+        "Main Menu Tree",
+        "User Profile",
+        "Quick Search Field",
+        "Registries with Agricultural Receipts",
+        "Displaying Data on AR in the System",
+        "Entering a Record of Issuance of AR into the Registry"
+      ],
+      "manualSubsections": {
+        "17": {
+          "title": "Creating a Project for Issuing a Commodity Agricultural Receipt",
+          "items": [
+            "Tab 'Creditor'",
+            "Tab 'Debtor'",
+            "Tab 'Buyer'",
+            "Tab 'Subject of Obligation'",
+            "Tab 'Land Plots'",
+            "Tab 'Pledge Subject'",
+            "Tab 'Actions'",
+            "Tab 'Execution'"
+          ]
+        },
+        "18": {
+          "title": "Creating a Project for Issuing a Financial Agricultural Receipt",
+          "items": [
+            "Tab 'Creditor'",
+            "Tab 'Debtor'",
+            "Tab 'Buyer'",
+            "Tab 'Subject of Obligation'",
+            "Tab 'Land Plots'",
+            "Tab 'Pledge Subject'",
+            "Tab 'Actions'",
+            "Tab 'Execution'"
+          ]
+        },
+        "21": {
+          "title": "Registering Actions Related to AR Records Entered in the ARR",
+          "items": [
+            "Printing AR Extract",
+            "Printing Certificate",
+            "Error Corrections",
+            "Creditor Rights Transfer",
+            "Changing Receipt Conditions",
+            "Execution Entry",
+            "Applications for Inability to Fulfill Obligations"
+          ]
+        }
+      },
+      "otherManualItems": [
+        "Deleting Agricultural Receipt",
+        "Advanced Search",
+        "Directories",
+        "Product Directories",
+        "Administration",
+        "Reports",
+        "Templates for Data Import",
+        "Creating 'Land Plots' Template",
+        "Technical Support Contacts"
+      ],
+      "downloadButton": "Download Full Manual"
+    },
+    "Component3": {
+      "title": "Video Instructions",
+      "videos": [
+        {
+          "title": "Creation and Issuance of Commodity AR",
+          "url": "https://www.youtube.com/watch?v=ou-R5Pdlv2Q"
+        },
+        {
+          "title": "Creation and Issuance of Financial AR",
+          "url": "https://www.youtube.com/watch?v=tJQtpLSZP68"
+        },
+        {
+          "title": "Printing Extracts and Certificates",
+          "url": "https://www.youtube.com/watch?v=751vlDSBdOs"
+        },
+        {
+          "title": "Error Corrections",
+          "url": "https://www.youtube.com/watch?v=U8wEpSqXgB4"
+        },
+        {
+          "title": "Execution of Agricultural Receipt",
+          "url": "https://www.youtube.com/watch?v=ek82mORoICA"
+        },
+        {
+          "title": "Transfer of Creditor Rights",
+          "url": "https://www.youtube.com/watch?v=B2fe5zCvPWI"
+        },
+        {
+          "title": "Changing Receipt Details",
+          "url": "https://www.youtube.com/watch?v=PApJc5vTJJA"
+        },
+        {
+          "title": "Entry about Inability to Fulfill Obligations",
+          "url": "https://www.youtube.com/watch?v=mSJvv-53M1w"
+        }
+      ]
+    }
+  },
+  "Knowledgecat": {
+    "api_cat": "/api/knowledgecat-en",
+    "Title": "About crop receipts\n",
+    "Description": "Brief information on what crop receipts are and how to use the tool in everyday business for farmers and lenders (local and foreign).",
+    "text1": "Agricultural receipts templates are available in the\n",
+    "text1_a": "«Generate a receipt»"
+  },
+  "TD": {
+    "Title": "Document Templates",
+    "Description": "The agrarian receipt templates have been developed in accordance with current legislation and include additional clauses most commonly added by market participants. For user convenience, the fields that must be filled in are highlighted in blue.\n\nCrop Receipts are usually used alongside various types of contracts as a guarantee or additional security. Therefore, it is important to avoid duplication of obligations and harmonize the terms of the receipt and the contract. You can download a recommended clause for the contract below.\n\nUsing recommended templates helps avoid common mistakes. They are useful for both experienced users and those just beginning to work with Crop Receipts and lacking practical experience.",
+    "Block1_Title": "Financial Agrarian Receipt",
+    "Block1_Text": "This is an agrarian receipt that establishes an unconditional obligation of the debtor to pay a monetary amount determined according to a formula agreed upon by the debtor and creditor, taking into account the prices of agricultural products in a defined quantity and quality.\n\nThe fulfillment of obligations under financial Crop Receipts is carried out exclusively in non-cash form.",
+    "Block1_Button1": "Financial Receipt Template",
+    "Block1_Button2": "Harmonization of Financial Receipt and Credit Agreement",
+    "Block1_Button3": "Harmonization of Financial Receipt and Sale-Purchase Agreement",
+    "Block2_Title": "Commodity Agrarian Receipt",
+    "Block2_Text": "This is an agrarian receipt that establishes an unconditional obligation of the debtor to deliver the agreed agricultural products, whose characteristics — quality, quantity, place, and delivery time — are defined in the receipt.",
+    "Block2_Button1": "Commodity Receipt Template",
+    "Block2_Button2": "Harmonization of Commodity Receipt and Barter Agreement",
+    "Block2_Button3": "Harmonization of Commodity Receipt and Forward Contract"
+  },
+  "NotariesPage": {
+    "Title": "Register Operators",
+    "TopButton": "Top 20 Notaries",
+    "AllButton": "All Notaries",
+    "Note1": "If you, as a notary, have signed an agreement with SE 'Agrarian Registers' for access to the Crop Receipts Register, but your name is not on the list or contains an error — please inform SE 'Agrarian Registers' at:"
+  },
+  "NotaryTable": {
+    "Title": "Notaries who have acquired the status of registrars of the Crop Receipts Register.",
+    "Title2": "The most active notaries according to the State Enterprise «Agrarian Registers», for the period 2022-2025.",
+    "City": "City",
+    "Region": "Region",
+    "Name": "Notary's Full Name",
+    "Contacts": "Contacts",
+    "Rating_num": "Ranking"
+  },
+  "News": {
+    "title": "News",
+    "tabAgrosphere": "Agrosphere News",
+    "tabDp": "News DP"
+  },
+  "NewsDP": {
+    "title": "News",
+    "tabAgrosphere": "Agrosphere News",
+    "tabDp": "News DP",
+    "readMore": "Read more"
+  },
+  "NewsList": {
+    "fetchError": "Failed to load news",
+    "noNews": "News not found or an error occurred during loading.",
+    "read": "Read",
+    "newsImageAlt": "News image"
+  },
+  "InfoMap": {
+    "totalStatistics": "Total Statistics",
+    "asOf": "As of",
+    "issuedReceipts": "Agricultural receipts issued",
+    "totalValue": "Total value of issued receipts",
+    "fundedProducers": "Producers funded",
+    "financingLenders": "Lenders provided financing",
+    "productNames": "Agricultural product types"
+  },
+  "UkraineMap": {
+    "statisticsByRegion": "Statistics by Region",
+    "localDataDate": "As of July 9, 2025",
+    "asOf": "As of",
+    "forYear": "For the year {year}",
+    "allYears": "All years",
+    "shareOfRegion": "Region's share of total issued receipts value, %",
+    "moreThan8": "more than 8%",
+    "from6To8": "6% – 8%",
+    "from4To6": "4% – 6%",
+    "from2To4": "2% – 4%",
+    "lessThan2": "less than 2%",
+    "localDataWarning": "Local Data",
+    "receiptsCount": "Number of receipts",
+    "amount": "Amount",
+    "viewMapFullscreen": "View map fullscreen",
+    "exitFullscreen": "Exit"
+  },
+  "SearchPage": {
+    "title": "Search",
+    "placeholder": "Enter a search query",
+    "buttonLabel": "Search",
+    "loading": "Loading results",
+    "found": "Found {count} {plural}",
+    "noResults": "Nothing found.",
+    "plural": {
+      "one": "match",
+      "few": "matches",
+      "many": "matches"
+    }
+  },
+  "Contacts": {
+    "imageAlt": "Contact image",
+    "title": "Contacts of the State Enterprise <br/>“Agrarian Registers”",
+    "addressPhysical": "011001, Kyiv, Mykhailivska St., 24b, office 83",
+    "addressMailing": {
+      "label": "Mailing address:",
+      "value": "01001, Kyiv-1 (main post office), Khreshchatyk 22, P.O. Box 85"
+    },
+    "director": {
+      "label": "Acting Director of SE 'Agrarian Registers' Hanna Svyrydenko:"
+    },
+    "support": {
+      "label": "Technical support service of the Register:"
+    },
+    "phone": "073 161 70 85"
+  },
+  "Component1": {
+    "title": "Algorithm for connecting private notaries to the Crop Receipts Register",
+    "step1": {
+      "p1a": "The notary sends to the State Enterprise \"Agrarian Registers\" an application in two copies expressing the intention to become a registrar of the Crop Receipts Register.",
+      "p1b": "We recommend using",
+      "p1c": "this application form.",
+      "p2": "The application must include:",
+      "item1": "a copy of the notarial activity certificate",
+      "item2": "a copy of the passport",
+      "item3": "a copy of the tax identification number (registration number of the taxpayer's account card)",
+      "item4": "email address",
+      "item5": "location address",
+      "item6": "phone number",
+      "item7": "bank account details intended for payment to the enterprise",
+      "p3": "Recommendation for convenient application tracking:",
+      "p4": "Send scanned copies of the original application, certificate, passport, and tax ID to:"
+    },
+    "step2": "The State Enterprise \"Agrarian Registers\", upon receiving the letter, prepares a draft agreement for connecting the notary to the Crop Receipts Register, and sends the agreement, invoice for services, and the act of acceptance to the email address specified in the application. Estimated service cost (including VAT) — UAH 1,290.00.",
+    "step3": "Based on the invoice, the notary pays for the services of the State Enterprise \"Agrarian Registers\" by transferring the appropriate amount to the bank account of the enterprise.",
+    "step4": {
+      "part1": "The notary prepares a mailing package and sends to the State Enterprise the documents listed in step 1, including two original applications, three copies of the signed agreement, two copies of the signed acceptance act, and a copy of the payment receipt.",
+      "part2": "Postal address of the State Enterprise \"Agrarian Registers\":",
+      "part3": "To proceed with the actual connection to the register, the notary sends valid digital signature certificates to the email:"
+    },
+    "step5": "After receiving the documents specified in step 4, the State Enterprise \"Agrarian Registers\" sends the notary's application and one copy of the agreement to the Ministry of Agrarian Policy and Food of Ukraine. From the moment the application is received by the Ministry, the notary is considered authorized as a registrar.",
+    "step6": {
+      "part1": "The State Enterprise \"Agrarian Registers\" verifies the payment, signs the acceptance act, creates a login and password, sends them to the notary along with the signed act.",
+      "part2": "From the moment the login and password are received, the notary gains access to the Crop Receipts Register and can perform authorized actions."
+    }
+  },
+  "Component2": {
+    "title": "User Manual",
+    "downloadAll": "Download the full manual",
+    "item1": "Algorithm for connecting private notaries to the Crop Receipts Register",
+    "item2": "Obtaining access identifier to the Crop Receipts Register",
+    "item3": "Using digital signature in the Register",
+    "item4": "Crypto library",
+    "item5": "Public key certificates from the digital signature",
+    "item6": "System login",
+    "item7": "Authentication via Login",
+    "item8": "Authentication via Digital Signature File",
+    "item9": "Authentication via Digital Signature Token",
+    "item10": "System interface for notaries",
+    "item11": "Main menu tree",
+    "item12": "User profile",
+    "item13": "Quick search field",
+    "item14": "Registers with Crop Receipts",
+    "item15": "Displaying data on receipts in the system",
+    "item16": "Entering a record into the Register about issuance of a receipt",
+    "item17": {
+      "title": "Creating a project for issuance of a Commodity Agrarian Receipt",
+      "subitem1": "Creditor tab",
+      "subitem2": "Debtor tab",
+      "subitem3": "Buyer tab",
+      "subitem4": "Obligation subject tab",
+      "subitem5": "Land plots tab",
+      "subitem6": "Collateral subject tab",
+      "subitem7": "Actions tab",
+      "subitem8": "Execution tab"
+    },
+    "item18": {
+      "title": "Creating a project for issuance of a Financial Agrarian Receipt",
+      "subitem1": "Creditor tab",
+      "subitem2": "Debtor tab",
+      "subitem3": "Buyer tab",
+      "subitem4": "Obligation subject tab",
+      "subitem5": "Land plots tab",
+      "subitem6": "Collateral subject tab",
+      "subitem7": "Actions tab",
+      "subitem8": "Execution tab"
+    },
+    "item19": "Entering a registration action into the Register",
+    "item20": "Registering decisions on receipts",
+    "item21": {
+      "title": "Registering actions on receipts already entered in the Register",
+      "subitem1": "Print receipt extract",
+      "subitem2": "Print certificate",
+      "subitem3": "Error correction",
+      "subitem4": "Creditor rights transfer",
+      "subitem5": "Changing receipt terms",
+      "subitem6": "Making an enforcement note",
+      "subitem7": "Declaration of inability to fulfill obligations"
+    },
+    "item22": "Deleting an agrarian receipt",
+    "item23": "Advanced search",
+    "item24": "Reference directories",
+    "item25": "Product directories",
+    "item26": "Administration",
+    "item27": "Reports",
+    "item28": "Templates for data import",
+    "item29": "Creating a 'Land plots' template",
+    "item30": "Technical support contacts"
+  },
+  "VideoInstructions": {
+    "title": "Video Instructions",
+    "video1": "Creating and Issuing a Commodity AR",
+    "video2": "Creating and Issuing a Financial AR",
+    "video3": "Printing Extracts and Certificates",
+    "video4": "Error Correction",
+    "video5": "Executing the Agricultural Receipt",
+    "video6": "Creditor Rights Transfer",
+    "video7": "Modifying Receipt Details",
+    "video8": "Statement of Inability to Fulfill Obligations"
+  },
+  "Extra": {
+    "title": "For Notaries",
+    "tab1": "Connection Algorithm",
+    "tab2": "User Manual",
+    "tab3": "Video Instructions",
+    "tab4": "FAQ",
+    "access": "Access the Register"
+  },
+  "LegalSlider": {
+    "title1": "Legal Positions",
+    "title2": "Supreme Court of Ukraine",
+    "prev": "Previous slide",
+    "next": "Next slide"
+  },
+  "LegalSlides": {
+    "1": {
+      "title": "The Agricultural Note is not part of the supply contract.",
+      "description": "The agricultural note and the supply contract are two separate legal transactions by their nature.",
+      "footnotes": [
+        "Ruling of the Commercial Court in the composition of the Supreme Court dated 27.01.2022 in case No. 924/233/21 {1} {2}",
+        "dated 12.07.2022 in case No. 902/698/21 {3} {4}",
+        "dated 28.07.2022 in case No. 905/452/21 {5} {6}",
+        "Ruling dated 11.07.2024 in case No. 902/171/23 of the Cassation Commercial Court {7} {8}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/102854559",
+        "https://reyestr.court.gov.ua/Review/102854559",
+        "https://zakononline.com.ua/court-decisions/show/105347512",
+        "https://reyestr.court.gov.ua/Review/105347512",
+        "https://zakononline.com.ua/court-decisions/show/105493746",
+        "https://reyestr.court.gov.ua/Review/105493746",
+        "https://zakononline.com.ua/court-decisions/show/120341836",
+        "https://reyestr.court.gov.ua/Review/120341836"
+      ]
+    },
+    "2": {
+      "title": "The execution of the agricultural note should not depend on its challenge or the invalidity of the secured contract provisions.",
+      "description": "Changes to the supply contract do not affect the legal force of the agricultural note and the debtor's obligation to fulfill its terms until the agricultural note itself is amended.",
+      "footnotes": [
+        "Ruling of the Commercial Court in the composition of the Supreme Court dated 23.06.2022 No. 910/430/21 {1} {2}",
+        "Resolution of the Commercial Court in the composition of the Supreme Court dated 02.08.2022 No. 910/11370/21 {3} {4}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/104977799",
+        "https://reyestr.court.gov.ua/Review/104977799",
+        "https://zakononline.com.ua/court-decisions/show/105600589",
+        "https://reyestr.court.gov.ua/Review/105600589"
+      ]
+    },
+    "3": {
+      "title": "The composition of the unconditional monetary obligation of the debtor does not affect the legal force of the agricultural note and the debtor’s obligation to fulfill its terms.",
+      "description": "",
+      "footnotes": [
+        "Ruling of the Commercial Court in the composition of the Supreme Court dated 13.09.2022 in case No. 924/1129/21 {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/106254803",
+        "https://reyestr.court.gov.ua/Review/106254803"
+      ]
+    },
+    "4": {
+      "title": "Non-performance by the debtor of the monetary obligation under the financial agricultural note is sufficient grounds for opening bankruptcy proceedings upon the creditor's application.",
+      "description": "",
+      "footnotes": [
+        "Ruling of the Commercial Court in the composition of the Supreme Court dated 10.08.2023 in case No. 918/246/23 {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/113357344",
+        "https://reyestr.court.gov.ua/Review/113357344"
+      ]
+    },
+    "5": {
+      "title": "The burden of proving the origin of agricultural products lies on the third-party buyer who purchased them from the debtor.",
+      "description": "“In the dispute between the creditor and the third party to whom the debtor alienated the property that is the subject of the pledge under the agricultural note, until the obligations under the agricultural note are fulfilled, the burden of proof regarding the origin of the alienated agricultural products rests on the debtor and the third party who is the debtor in the disputed legal relations.”",
+      "footnotes": [
+        "Ruling of the Commercial Court in the composition of the Supreme Court dated 10.08.2023 in case No. 918/246/23 {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/113357344",
+        "https://reyestr.court.gov.ua/Review/113357344"
+      ]
+    },
+    "6": {
+      "title": "The application of ‘draconian’ (author's note) sanctions under the agricultural receipt may be limited by the court.",
+      "description": "The creditor filed a lawsuit to recover the debt from the debtor under a financial agricultural receipt.  Under the terms of the FAR, the creditor demanded payment of:\n \n(1) the principal amount;\n(2) penalty (at double the NBU discount rate);\n(3) fine (30%);\n(4) fee for use of funds (36% per annum);\n(5) losses from inflation.",
+      "footnotes": [
+        "Resolution of the Grand Chamber of the Supreme Court of Ukraine dated 09.03.2023 in case No. 902/317/22"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/109620047",
+        "https://reyestr.court.gov.ua/Review/109620047"
+      ]
+    },
+    "7": {
+      "title": "The agricultural note is not a bill of exchange.",
+      "description": "The legal nature of the agricultural note is different from that of bills of exchange. Unlike the agricultural note, issuing a bill of exchange always terminates monetary obligations under the concluded contract.",
+      "footnotes": [
+        "Ruling dated 11.07.2024 in case No. 902/171/23 of the Cassation Commercial Court {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/120341836",
+        "https://reyestr.court.gov.ua/Review/120341836"
+      ]
+    },
+    "8": {
+      "title": "It is not mandatory to specify contract details in the agricultural note.",
+      "description": "Although agricultural notes did not contain references to the counter-obligation under the contract, the Supreme Court concluded that this is not explicitly required by law; specifically, it noted that:\n- the absence of contract details in the agricultural note is not a ground for its nullity;\n- to acquire the status of creditor under the agricultural note, it is decisive to prove the existence of contractual obligations under which the debtor issued such a note, rather than indicating the contract details in the financial agricultural note.",
+      "footnotes": [
+        "Ruling dated 04.02.2025 in case No. 911/103/24 of the Cassation Commercial Court {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/124964387",
+        "https://reyestr.court.gov.ua/Review/124964387"
+      ]
+    },
+    "9": {
+      "title": "Bankruptcy: To have claims under the agricultural note in the 4th priority queue, waiver of collateral is required.",
+      "description": "The Supreme Court overturned lower court decisions to open bankruptcy proceedings because the grounds for classifying the initiating creditor’s claims in the 4th queue (“other creditor claims not secured by collateral”) were not established; obligations under the agricultural note are secured by a pledge on future harvest, and the lower courts did not determine the presence or absence of a creditor's waiver of collateral.",
+      "footnotes": [
+        "Ruling dated 26.02.2025 in case No. 918/749/24 of the Cassation Commercial Court {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/125710039",
+        "https://reyestr.court.gov.ua/Review/125710039"
+      ]
+    },
+    "10": {
+      "title": "The absence of information about title documents to land plots in the agricultural note was not a reason to cancel registry entries.",
+      "description": "The debtor tried to invalidate entries in the Agricultural Notes Registry arguing that documents titled 'financial agricultural note' lacked necessary details under Article 6 of the Law of Ukraine 'On Agricultural Notes', including title documents to land plots. The court rejected this, stating that such information is included in the registry and is an integral part of the validity of the financial agricultural note, which consists of several legal facts.",
+      "footnotes": [
+        "Ruling dated 02.04.2025 in case No. 924/700/24 (924/760/24) of the Cassation Commercial Court {1} {2}"
+      ],
+      "links": [
+        "https://zakononline.com.ua/court-decisions/show/126607640?from=924/700/24",
+        "https://reyestr.court.gov.ua/Review/126607640"
+      ]
+    }
+  },
+  "MaterialTypes": {
+    "video": "Video",
+    "instruction": "Instruction",
+    "presentation": "Presentation",
+    "law": "Law",
+    "document": "Document",
+    "nbu": "NBU",
+    "usefullinks": "Useful links"
+  },
+  "agrarian": {
+    "what_is_title": "What is an agrarian receipt?",
+    "what_is_text": "An agricultural receipt is a document of title that, in accordance with the Law of Ukraine ‘On Agricultural Receipts’ dated 6 July 2012, records the debtor's unconditional obligation, secured by collateral, to deliver agricultural products or pay money.",
+    "what_is_text_2": "In other words, it is a tool that allows an agricultural producer to receive money or material and technical resources on the security of a future harvest.",
+
+    "types_title": "What types of Crop Receipts exist?",
+    "types_goods_title": "Commodity agrarian receipt",
+    "types_goods_text": "A receipt confirming the farmer’s obligation to deliver a specified amount of agricultural products.",
+
+    "types_financial_title": "Financial agrarian receipt",
+    "types_financial_text": "A receipt confirming the farmer’s obligation to repay borrowed funds in monetary form.",
+
+    "features_title": "What are the key features of Crop Receipts?",
+    "feature_1": "Unconditional obligation",
+    "feature_2": "Credit instrument",
+    "feature_3": "Created by citizens",
+    "feature_4": "Notarized issuance",
+    "feature_5": "May include multiple related documents",
+    "feature_6": "Included in the state register of documents",
+
+    "important_title": "What should be known when issuing an agrarian receipt?",
+    "important_1": "At its core, it is an agreement between an agricultural producer (borrower) and a lender (distributor, supplier of goods and materials, grain trader, bank).",
+    "important_2": "Agricultural receipts are subject to notarisation and entry into the Register of Agricultural Receipts.",
+    "important_3": "The loan is repaid through future agricultural production (commodity agricultural receipts) or proceeds from its sale (financial agricultural receipts).",
+    "important_4": "The loan is secured by a future crop grown on a land plot identified by a cadastral number.",
+    "important_5": "Land is not a pledge under an agricultural receipt.",
+    "important_6": "The obligation remains in force until it is fully repaid.",
+    "important_7": "The lender has the right to monitor the future harvest of agricultural products pledged under the crop receipt.",
+
+    "registry_title": "What is the Crop Receipts Register?",
+    "registry_text": "The notary enters data on all agricultural receipts into the Register of Agricultural Receipts. Access to the Register is free of charge and can be found at this link.",
+    "registry_text_2": "An agricultural receipt is considered issued from the date of its registration in the Register. The Register of Agricultural Receipts allows you to check online information about unexecuted agricultural receipts - in the public domain, as well as those that have been in circulation - upon a separate application to a notary.",
+
+    "admin_title": "State Enterprise 'Agrarian Registers'",
+    "admin_text": "The State Enterprise ‘Agrarian Registers’ is the administrator of the Register of Agricultural Receipts. The company ensures continuous and full-fledged operation of the Register, reliable data storage, prompt connection of notaries, and provision of information to citizens upon request in terms of public data.",
+    "admin_text_2": "The Register is filled in by public and private notaries who acquire the status of registrars of the Register of Agricultural Receipts.",
+
+    "ifc_title": "IFC's role in developing agro-financing in Ukraine",
+    "ifc_text": "The International Finance Corporation (IFC, World Bank Group), with the support of the Swiss Confederation, is actively involved in the introduction of innovative financial instruments for agribusiness in Ukraine.",
+    "ifc_text2": "The IFC's Agricultural Receipts in Ukraine Project (2015-2020) was one of the key drivers behind the introduction of the agricultural receipts instrument to improve access to finance for agricultural producers. It was implemented in close cooperation with government agencies, the private sector, and international organisations.",
+    "ifc_text3": "У відповідь на запит ринку до модернізації та сек'юритизації інструменту IFC продовжила роботу та запропонувала \u2028ще одну новацію – неемісійний цінний папір «аграрні ноти», який запрацював на ринку України з 1 січня 2025 року. Більше інформації про інструмент може дізнатися за посиланням https://www.csd.ua/agrarni-noty/."
+  },
+  "stories": {
+    "1": {
+      "date": "01.01.2025",
+      "icon": "",
+      "title": "Перша «м’ясна» аграрна розписка: крок до розвитку фермерства на Яворівщині",
+      "img": "/stories/cows.png",
+      "author": "Степан Стельмах, власник ФГ «ВЕРХ», Львівська область",
+      "content": [
+        "Степан Стельмах заснував фермерське господарство «ВЕРХ» у 2014 році для \u2028вирощування великої рогатої худоби. Уже в перший рік придбав в племгосподарстві \u2028п’ять корів, і відтоді Степан постійно працює над збільшенням їхньої кількості.",
+        "Нині стадо племінної худоби збільшилося до 36 голів, а ще в господарстві є 33 гектари землі, які використовуються під пасовища.",
+        "Фермер має намір розвивати напрям переробки м’яса, однак реалізацію цих планів стримує постійна нестача коштів. Саме тому аграрна розписка викликала у нього неабиякий інтерес.",
+        "Наприкінці жовтня 2018 року в Україні було оформлено першу «м’ясну» аграрну розписку. Нею скористалося фермерське господарство «ВЕРХ» у Яворівському районі Львівської області. Господарство отримало фінансування у межах комплексної Програми підтримки та розвитку агропромислового виробництва, що реалізується Департаментом агро-промислового розвитку Львівської ОДА та Львівським обласним фондом підтримки індивідуального житлового будівництва на селі. "
+      ],
+      "author_2": "Керівник господарства «ВЕРХ» і один із його співзасновників Степан Стельмах:",
+      "quote": [
+        "Поки що я працюю без прибутків. Вкладаю все в розвиток \u2028і докуповую худобу. Планую досягти 100 голів племінної худоби орієнтовно за три роки. Найманих працівників поки що не маємо, тож роботи багато, особливо під час заготівлі кормів. Потенційно хочу розвивати напрям переробки м’яса, але постійно стримує нестача коштів.",
+        "Я вивчив питання аграрних розписок, порадився з батьком. Кредит дуже вигідний: він дається на п’ять років на пільгових умовах – нараховується лише 5% річних, а перший рік може бути термінованим (погашення лише відсотків за кредитом). Взагалі – краса!",
+        "Ризик мінімальний, худоба є. Тим паче, що худобу за аграрною розпискою я застрахував. У разі чого – буде страховка, і буде чим розрахуватися з кредитором. А якщо все складеться добре, то борг погашу сам. Головне, \u2028що я отримав можливість далі розвиватися.",
+        "Я був дуже задоволений, коли дізнався, що отримаю фінансування за розпискою. Якби не аграрна розписка, то, напевно, наступного року змушений був би зменшити поголів’я стада. Адже найняти комбайн, прес для сіна, косарку – це значні витрати! Моїх особистих коштів для фінансування вже не вистачає."
+      ]
+    },
+    "2": {
+      "date": "01.01.2025",
+      "icon": "/stories/icon1.png",
+      "title": "Як аграрна розписка стала квитком до міжнародного фінансування для органічного бізнесу",
+      "img": "/stories/sunflowers.png",
+      "author": "Оксана Антипчук, комерційний директор групи компаній All in Foody, Житомирська область:",
+      "content": [
+        "Наприкінці липня 2019 року українське підприємство видало першу міжнародну аграрну розписку з органічною продукцією в заставі, завдяки чому залучило €100 тис. фінансування від голландського кредитора. Йдеться про підприємство з групи компаній All in Foody, що розпочала свою діяльність у 2013 році з 200 га землі та спеціалізується винятково на органічній продукції.",
+        "Компанія фактично щороку подвоювала свій земельний банк і наразі обробляє \u2028близько 8 тис. га на Житомирщині. Переважно вирощують сертифіковані органічні зернові (пшеницю, жито), олійні культури (високоолеїновий соняшник, сою), а також льон. ",
+        "Оксана Антипчук, комерційний директор групи компаній All in Foody, розповіла про особливості та труднощі органічного сектору, а також поділилася першим досвідом роботи компанії за міжнародними аграрними розписками."
+      ],
+      "author_2": "Керівник господарства «ВЕРХ» і один із його співзасновників Степан Стельмах:",
+      "quote": [
+        "Цього року ми вперше скористалися інструментом аграрних розписок. Навесні побували на семінарі Проєкту IFC, дізналися, що вже цього року можна буде оформляти міжнародні фінансові розписки. Нас це зацікавило, тому що ми – експортно орієнтований бізнес. Тим більше, що у нас склалися гарні стосунки з нашими іноземними партнерами.\u2028І ми вирішили: а чому б і ні? Це б не тільки допомогло нам \u2028в нашій операційній діяльності, а й стало б непоганим пілотним проєктом.",
+        "Міжнародні аграрні розписки надають можливість отримувати компаніям валютні надходження – наприклад, передоплату за форвардним контрактом. Зазвичай під форварди іноземці не дуже хочуть надавати аванси. \u2028Я думаю, що Україна сприймається як ринок з високими ризиками. Але якщо ви з партнером маєте кількарічну історію співпраці, то таке питання не постає."
+      ],
+      "qa": [
+        {
+          "question": "— Розкажіть чому в All in Foody обрали органічний напрямок, наскільки він є перспективним?",
+          "answer": [
+            "Для нас він є дуже перспективним. Щороку світовий ринок споживання органічних продуктів збільшується на 10-14%. В Україні на даний момент сертифіковано менше \u20281% сільськогосподарських земель, але кліматичні умови та родючі ґрунти дозволяють говорити про високий потенціал цього сектору.",
+            "По-друге, землі Житомирського регіону дуже підходять для органіки. Більше того, \u2028наші землі практично ніколи не були залучені до інтенсивного сільського господарства: \u202810-20 років не використовувалися жодні хімічні засоби. Це екологічно чисті землі, \u2028на яких можна вирощувати продукцію.",
+            "Цього року ми зібрали 6 тис. т органічної пшениці, майже 1 тис. т жита. Для органіки \u2028це дуже суттєві обсяги. Також є ще соціальний ефект: в основному органіка залучає \u2028ручну працю, тож ми можемо працевлаштовувати сільське населення."
+          ]
+
+
+        },
+        {
+          "question": "— Як щодо структури витрат? Органічне виробництво більш витратне порівняно \u2028з інтенсивним сільським господарством?",
+          "answer": [
+            "В інтенсивному виробництві використовуються гербіциди, пестициди, добрива. Вони коштують недешево. В органіці ми не можемо використовувати більшість таких препаратів. Вони мають бути сертифіковані або дозволені органами сертифікації. \u2028Є лише механічний обробіток. Йдеться про трактори з таким навісним обладнанням \u2028як культиватори, борони… Тобто потрібно боротися з бур’яном механічно. Тому щодо витратної частини – питання відкрите. А з іншого боку, ціни на органічну продукцію, щонайменше, на 30-50% вищі"
+          ]
+        },
+        {
+          "question": "— Як щодо залучення фінансування: які особливості, з якими викликами стикаєтеся?",
+          "answer": [
+            "Інструменти фінансування аграрного бізнесу в країні перебувають на доволі низькому рівні розвитку. Певні періоди року для сільгоспвиробника є критичними для отримання додаткових ресурсів – передусім посівна кампанія. У цей період йдуть значні витрати \u2028на насіння, паливо, техніку тощо. І так само це стосується збору врожаю.",
+            "Цього року ми вперше скористалися інструментом аграрних розписок. Навесні побували на семінарі Проєкту IFC, дізналися, що вже цього року можна буде оформляти міжнародні фінансові розписки. Нас це зацікавило, тому що ми – експортно орієнтований бізнес. \u2028Тим більше, що у нас склалися гарні стосунки з нашими іноземними партнерами. І ми вирішили: а чому б і ні? Це б не тільки допомогло нам в нашій операційній діяльності, \u2028а й стало б непоганим пілотним проєктом"
+          ]
+        },
+        {
+          "question": "— Розкажіть, як налагодили контакт з іноземним кредитором?",
+          "answer": [
+            "Ми мали успішний досвід роботи в минулому сезоні: продали їм всю органічну пшеницю та жито. А познайомилися з ними також минулого року на виставці «Біофах» (Biofach) \u2028в Німеччині. Це одна з найбільших виставок органічної продукції в світі. Ініціатива щодо співпраці за аграрною розпискою була нашою. Кредитор досить позитивно поставився \u2028до цієї ідеї. Звичайно, наші іноземні партнери не знали всіх нюансів. Ми потім разом зустрілися з представниками IFC з Проєкту «Аграрні розписки в Україні». IFC надала їм всю інформацію. Тобто це було дуже відкрито, усі питання насправді віталися і роз’яснювалися для кредитора."
+          ]
+        },
+        {
+          "question": "— На яких умовах ви оформили міжнародну аграрну розписку?",
+          "answer": [
+            "Продукт, який фігурує в аграрній розписці, – це органічний високоолеїновий соняшник. \u2028Ми маємо 1200 га цього соняшника. Обсяг в контракті – 1,5 тис. т. Кредитор – голландська компанія-трейдер FFM Europe B.V. Це основний імпортер органічної продукції до Швейцарії."
+          ]
+        },
+        {
+          "question": "— Які вигоди надає вам міжнародне кредитування?",
+          "answer": [
+            "Міжнародні аграрні розписки надають можливість отримувати компаніям валютні надходження, зокрема, передоплату за форвардним контрактом. Зазвичай під форварди іноземці не дуже хочуть надавати аванси. Я думаю, що Україна сприймається як ринок \u2028із високими ризиками. Але якщо ви з партнером маєте кількарічну історію співпраці, \u2028то таке питання не постає."
+          ]
+        },
+        {
+          "question": "— Що потрібно українським сільгоспвиробникам, щоб самостійно залучати фінансування з зовнішніх ринків, зокрема через міжнародні аграрні розписки?",
+          "answer": [
+            "Потрібно, щоб компанія зарекомендувала себе на ринку як надійний постачальник продукції високої якості. Дуже важливо для іноземних партнерів, щоб відносини між покупцем і продавцем були прозорі.",
+            "Наприклад, ми ніколи не відмовляємо, якщо наші поточні чи потенційні клієнти хочуть приїхати на виробництво, подивитися на наші поля, склади, поспілкуватися з персоналом. Тобто ми демонструємо повну відкритість перед нашими партнерами.",
+            "Звичайно, для того, щоб залучати іноземне фінансування, потрібно на цьому ринку трохи крутитися. Понад усе – це відвідувати основні галузеві події, наприклад, виставку «Біофах», про яку я вже розповідала.",
+            "На виставках, крім того, що ви представляєте себе як компанію, ви ще представляєте Україну. Тим самим ви підвищуєте її репутацію серед іноземних потенційних партнерів, додаєте впевненості їм у тому, що наша країна в аграрному секторі має великі можливості, що на нас можна покластися, і тому з нами можна і варто мати спільну справу. Тоді з часом іноземні інвестори самі підуть в Україну."
+          ]
+        }
+      ]
+    },
+    "3": {
+      "date": "01.01.2025",
+      "icon": "/stories/icon2.png",
+      "title": "Від кризи до нових можливостей: історія успіху фермера з Львівщини",
+      "img": "/stories/field.png",
+      "author": "Дмитро Суслик, власник ФГ «Дуброва», Львівська область",
+      "content": [
+        "Фермерське господарство зареєстрував у 2014 році й розпочав діяльність із 3 га землі. Зараз у господарстві вже близько 500 га землі. З кожним роком вдається збільшувати земельний банк. Вирощую традиційні зернові та олійні культури: пшеницю, соняшник, \u2028сою та гречку. Переважно доводиться покладатися на власні сили.",
+        "У 2014 році держава підтримувала компенсаціями – тоді засіяв 3 га гречкою. \u2028Вже наступного 2015 року посіяв цю культуру на 300 га, і держава так само підтримала. \u2028А в 2017-му знову засіяв 300 га гречки, але ціна обвалилася, і господарство опинилось \u2028на межі банкрутства. Була думка просто все розпродати і нічого більше не робити, тому що коштів на посівну фактично не було де взяти. І тільки завдяки тому, що в січні цього року з’явилися аграрні розписки, зміг навесні отримати кошти у «Агропросперіс Банку» \u2028в сумі 600 тис. грн.  Під заставу надав майбутній врожай ріпаку, який був уже посіяний. Зміг провести посівну кампанію, підживити ріпак, вдало скосити його. Цю аграрну розписку вже погасив, зібравши урожай в липні поточного року. Не лише розрахувався \u2028за аграрною розпискою, але й отримав прибуток від зібраного врожаю ріпаку.",
+        "Через місяць постало питання про оновлення технічного парку. Я знайшов п’ятирічний трактор, який мені підходив і за ціною, і за технічними характеристиками, та відповідав потребам господарства. Техніка коштувала 1 млн 700 тис. грн. Звернувся до банку \u2028з проханням надати кошти на придбання такого трактора. Банк відмовився прокредитувати, бо, за його умовами, йшлося лише про нову техніку, кредитів на вживану він не надає. Проте нову техніку моє господарство ще не могло собі дозволити. \u2028Я звернувся по допомогу до того ж «Агропросперіс Банку», з яким я вже співпрацював \u2028за аграрною розпискою. Вони розглянули моє прохання, подивилися на фінансовий стан господарств, дали позитивну відповідь та виділили кошти на придбання техніки. \nЯ купив трактор, а потім вдало провів осінню посівну кампанію. Аграрна розписка зараз відкрита, планую її погасити з наступного врожаю.",
+        "Через місяць постало питання про оновлення технічного парку. Я знайшов п’ятирічний трактор, який мені підходив і за ціною, і за технічними характеристиками, та відповідав потребам господарства. Техніка коштувала 1 млн 700 тис. грн. Звернувся до банку \u2028з проханням надати кошти на придбання такого трактора. Банк відмовився прокредитувати, бо, за його умовами, йшлося лише про нову техніку, кредитів на вживану він не надає. Проте нову техніку моє господарство ще не могло собі дозволити. \u2028Я звернувся по допомогу до того ж «Агропросперіс Банку», з яким я вже співпрацював \u2028за аграрною розпискою. Вони розглянули моє прохання, подивилися на фінансовий стан господарств, дали позитивну відповідь та виділили кошти на придбання техніки. \u2028Я купив трактор, а потім вдало провів осінню посівну кампанію. Аграрна розписка зараз відкрита, планую її погасити з наступного врожаю.",
+        "Зручним у цьому випадку є те, що виплачую тільки відсотки за цим кредитом, а основні кошти поверну, вже зібравши та продавши врожай у липні-серпні наступного року. \u2028У моєму випадку за цим механізмом кредитування вдалося отримати кредит під 22%. Банк пропонує і звичайний кредит під трохи нижчі відсотки, але щоб оформити такий, потрібно надати в заставу нерухомість, приміщення, землю. А я ризикую лише майбутнім врожаєм. Оскільки не маю нерухомості, то використав майбутній врожай як заставу – \u2028це оптимальне рішення, до того ж процедура оформлення аграрної розписки проста. \u2028Є поле, земля зареєстрована, маю державні акти на неї. Коли я посіяв ріпак, приїхав представник банку, оглянув посіви і ухвалив рішення про надання фінансових ресурсів. Без аграрних розписок я б не мав можливості працювати далі.",
+        "Про цей механізм кредитування дізнався, відвідавши семінар, який проводили регіональні представники Проєкту «Аграрні розписки в Україні» у Львівській області. Жодних негативних моментів у цьому способі отримання кредитних ресурсів та їх погашення я не помітив. Мої колеги-фермери були здивовані, що я взяв у цьому участь, \u2028і все вдалося так, як було задумано. Враження тільки позитивні, дуже задоволений. Вдячний організаторам та всім, хто впровадив таку можливість. До цього часу важко було взяти в банку кошти, особливо моєму господарству, яке не має майна та нерухомості, \u2028а лише техніку, що застаріла, тому жоден банк не погоджувався взяти її під заставу.",
+        "Щодо подальших планів – маю ще частину поля, яку не використовую, тож готовий \u2028і надалі залучати кошти під аграрні розписки для розвитку бізнесу."
+      ],
+      "author_2": "",
+      "quote": [
+        "Без аграрних розписок, особисто для мене, не було можливості працювати далі. Про цей механізм кредитування дізнався, відвідавши семінар, який проводили регіональні представники Проєкту «Аграрні розписки в Україні» у Львівській області. Жодних негативних моментів у цьому способі отримання кредитних ресурсів та їх погашення \u2028я не помітив. Враження тільки позитивні, дуже задоволений."
+      ]
+    },
+    "4": {
+      "date": "01.01.2025",
+      "icon": "/stories/icon3.png",
+      "title": "Аграрна розписка як старт для ягідного бізнесу у горах Карпат",
+      "img": "/stories/berries.png",
+      "author": "Михайло Буришин, ФГ «Ласкі», Закарпаття",
+      "content": [
+        "Влітку 2018 року Михайло започаткував власне господарство, маючи 5 га землі \u2028з кислим ґрунтом на висоті майже 800 м над рівнем моря, що добре підходить для лохини. Він видав аграрну розписку на забезпечення оплати за обладнання та побудову системи зрошення. Михайло Буришин розповідає:"
+      ],
+      "author_2": "",
+      "quote": [
+        "Про аграрні розписки я дізнався від координатора Проєкту IFC. Разом із кредитором скористалися такою можливістю: аграрна розписка надає фірмі більше гарантій повернення кредиту. Я думаю, що і він, і я захищені.",
+        "Це гірська місцевість, а не Центральна Україна, де багато вільної від насаджень землі. У нашому регіоні значно \u2028важче отримати велику земельну ділянку, адже тут набагато більше лісу.",
+        "Лохина – стійка культура, яка витримує до -35° взимку і до -8° у період цвітіння. До того ж у нас кислі ґрунти, а вона добре росте саме в таких умовах. Ягоді також потрібна волога. Вона має ген карпатської лохини, яка росте на наших полонинах.",
+        "У Міжгірському районі, де розташоване наше господарство, поки немає жодного іншого аграрного підприємства. Земля тут не обробляється. Кількість худоби в селі вже зменшилася. Великі масиви землі, які залишилися після колгоспу, заростають, через що знижується їхня родючість. Виходить, що вільної землі багато, але немає кому її обробляти. Станом на сьогодні у нашому розпорядженні площа розміром у 5 га, зараз плануємо збільшити її до 20 га.",
+        "Зрозуміло, що наша земля підходить лише тим культурам, які не надто морозостійкі та потребують більше сонця. Ґрунти наші не можуть давати великих врожаїв навіть картоплі. \u2028Але є кілька рослин, які ця земля готова прийняти, даючи промислові врожаї. Це фундук, конопля і лохина.",
+        "Я обрав найоптимальніший для себе варіант."
+      ]
+    },
+    "5": {
+      "date": "01.01.2025",
+      "icon": "",
+      "title": "Відео: Аграрні розписки стали фінансовою опорою для агробізнесу в прифронтових регіонах",
+      "img": "/stories/berries.png",
+      "author": "Відео-історія: Фінансування фермерів на Сході України",
+      "content": [
+        "Фермери зі східних регіонів України, попри близькість до лінії фронту та значні ризики для бізнесу, змогли отримати необхідне фінансування завдяки аграрним розпискам. Підтримка координаторів Проєкту IFC «Аграрні розписки в Україні» допомогла швидко оформити зобов’язання та залучити кошти на закупівлю насіння, добрив і проведення посівної. Це дозволило агровиробникам відновити обробіток десятків гектарів землі \u2028та забезпечити місцеві громади роботою та соціальними благами. ",
+        "Аграрні розписки стали для фермерів зі східних регіонів дієвим інструментом фінансової підтримки, який дав змогу не лише втримати господарства на плаву, а й планувати подальший розвиток навіть у часи невизначеності."
+      ],
+      "author_2": "",
+      "quote": []
+    }
+  }
+}

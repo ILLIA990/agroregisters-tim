@@ -1,0 +1,35 @@
+{
+  "name": "agroregisters-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.4.1",
+    "next-intl": "^4.3.4",
+    "antd": "^5.26.4",
+    "axios": "^1.8.4",
+    "cheerio": "^1.1.0",
+    "jsdom": "^26.1.0",
+    "leaflet": "^1.9.4",
+    "node-cron": "^4.1.1",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.2",
+    "swiper": "^11.2.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "tailwindcss": "^4"
+  }
+}

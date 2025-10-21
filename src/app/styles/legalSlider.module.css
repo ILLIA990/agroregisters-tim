@@ -1,0 +1,130 @@
+.container {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: #22252E;
+    text-align: center;
+    text-align: left;
+}
+
+.slide {
+    height: 600px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.index {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: #2B7441;
+    color: #fff;
+    padding: 4px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #22252E;
+}
+
+.description {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #22252E;
+}
+
+.footnotes {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #8F94A6;
+    line-height: 1.5;
+}
+
+.footnoteButton {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+    padding: 2px 6px;
+    margin: 0 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.footnoteButton:hover {
+    background-color: #dcdcdc;
+}
+.supLink {
+    text-decoration: none;
+    color: #8F94A6;
+}
+
+.supLink:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+        padding: 0 16px;
+    }
+
+    .heading {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .slide {
+        height: auto;
+        padding: 20px 16px;
+        border-radius: 12px;
+    }
+
+    .index {
+        top: 16px;
+        left: 16px;
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .description {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .footnotes {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .footnoteButton {
+        font-size: 0.7rem;
+        padding: 2px 5px;
+    }
+
+    .supLink {
+        font-size: 14px;
+    }
+}

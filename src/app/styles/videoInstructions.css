@@ -1,0 +1,75 @@
+.video-instructions {
+    padding: 40px 20px;
+}
+
+.video-instructions-title {
+    margin-bottom: 20px;
+}
+
+.video-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    box-shadow: 0 2px 6px #0000000d;
+    transition: transform .2s;
+}
+
+.video-item:hover {
+    transform: translateY(-2px);
+}
+
+.video-preview {
+    background-color: #eaeaea;
+    height: 240px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.play-icon {
+    font-size: 36px;
+    color: #333;
+}
+@media (max-width: 768px) {
+    .video-instructions {
+        padding: 20px 12px;
+    }
+
+    .video-instructions-title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .video-item {
+        height: auto;
+        padding: 12px;
+    }
+
+    .video-preview {
+        height: 180px;
+    }
+
+    .play-icon {
+        font-size: 28px;
+    }
+}

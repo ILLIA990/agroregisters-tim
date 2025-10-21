@@ -1,0 +1,112 @@
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faq-item {
+    background-color: #F2F1EE;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.faq-item::after {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.faq-toggle::after {
+    content: url("https://map.agroregisters.com.ua/plus.svg");
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.faq-toggle.open::after {
+    content: url("https://map.agroregisters.com.ua/minus.svg");
+}
+
+.faq-answer {
+    padding: 15px 20px;
+    animation: slideDown 0.3s ease-in-out;
+    color: #2a2f41;
+}
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.faq-item2 {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.faq-header h4{
+    color: #fff;
+}
+.faq-questions{
+    margin-top: 10px;
+}
+.faq-item.open {
+    background-color: #D4E9D7;
+}
+.faq-question.open {
+    background-color: #D4E9D7;
+}
+.faq-header {
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    background-color: #007a33;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background .3s;
+    display: flex
+;
+    border-radius: 8px;
+}
+.faq-header.open {
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-body {
+    background-color: #e8f4ed;
+    animation: slideDown 0.3s ease-in-out;
+    padding: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.faq-toggle2:after {
+    content: url(https://map.agroregisters.com.ua/plus-white.svg);
+    font-size: 18px;
+    transition: transform .3s;
+    position: sticky;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.faq-toggle2.open::after {
+    content: url(https://map.agroregisters.com.ua/minus-white.svg);
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

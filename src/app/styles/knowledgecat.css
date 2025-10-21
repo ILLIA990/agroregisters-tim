@@ -1,0 +1,154 @@
+.container.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.secondary-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.secondary-page p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.secondary-page a {
+    color: #007c3d;
+    text-decoration: underline;
+}
+.secondary-page a:hover {
+    color: #005b2a;
+    text-decoration: none;
+}
+
+.lib-wrap-one {
+    display: grid;
+    gap: 30px;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    grid-row-gap: 40px;
+}
+
+.lib-item-one.el-6 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.lib-item-one {
+    display: flex;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lib-item-one:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.lib-item-one h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.lib-item-one h3 a {
+    color: #007c3d;
+    text-decoration: none;
+}
+
+.lib-item-one h3 a:hover {
+    text-decoration: underline;
+}
+
+.lib-item-one div a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px dashed transparent;
+}
+
+.lib-item-one div a:hover {
+    border-color: #007c3d;
+    color: #007c3d;
+}
+
+@media (max-width: 991px) {
+    .lib-item-one {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 600px) {
+    .lib-item-one {
+        width: 100%;
+    }
+
+    .secondary-page h1 {
+        font-size: 28px;
+    }
+
+    .secondary-page p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 991px) {
+    .lib-wrap-one {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        grid-row-gap: 30px;
+    }
+
+    .lib-item-one.el-6 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .container.wide {
+        padding: 0 12px;
+    }
+
+    .lib-wrap-one {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .lib-item-one {
+        width: 100%;
+        padding: 15px 18px;
+    }
+
+    .secondary-page h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .secondary-page p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .lib-item-one h3 {
+        font-size: 18px;
+    }
+
+    .lib-item-one div a {
+        font-size: 14px;
+        margin-right: 8px;
+    }
+}

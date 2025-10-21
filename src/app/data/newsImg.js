@@ -1,0 +1,22 @@
+export const newsImages = [
+    '/news-pics/Rectangle 1.png',
+    '/news-pics/Rectangle 2.png',
+    '/news-pics/Rectangle 3.png',
+    '/news-pics/Rectangle 4.png',
+    '/news-pics/Rectangle 5.png',
+    '/news-pics/Rectangle 6.png',
+    '/news-pics/Rectangle 23.png',
+    '/news-pics/Rectangle 24.png',
+    '/news-pics/Rectangle 25.png',
+    '/news-pics/Rectangle 26.png',
+    '/news-pics/Rectangle 27.png',
+    '/news-pics/Rectangle 28.png',
+    '/news-pics/Rectangle 29.png',
+    '/news-pics/Rectangle 30.png',
+    '/news-pics/Rectangle 31.png',
+    '/news-pics/Rectangle 32.png',
+    '/news-pics/Rectangle 34.png',
+    '/news-pics/Rectangle 36.png',
+    '/news-pics/Rectangle 37.png',
+];
+

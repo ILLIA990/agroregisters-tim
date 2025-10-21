@@ -1,0 +1,106 @@
+.faq-container {
+    max-width: 1200px;
+}
+
+.faq-item {
+    background-color: #F2F1EE;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.faq-item::after {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.faq-toggle::after {
+    content: url("https://map.agroregisters.com.ua/plus.svg");
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.faq-toggle.open::after {
+    content: url("https://map.agroregisters.com.ua/minus.svg");
+}
+
+.faq-answer {
+    padding: 15px 20px;
+    animation: slideDown 0.3s ease-in-out;
+    color: #2a2f41;
+}
+.faq-item.open {
+    background-color: #D4E9D7;
+}
+.faq-question.open {
+    background-color: #D4E9D7;
+}
+.faq-answer {
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.faq-answer a {
+  color: green;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.faq-answer a:hover {
+  color: darkgreen;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 768px) {
+    .faq-container {
+        max-width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .faq-item {
+        margin-bottom: 12px;
+        border-radius: 6px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    .faq-toggle::after {
+        right: 16px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .faq-answer {
+        padding: 12px 16px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}

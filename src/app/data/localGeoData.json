@@ -1,0 +1,163 @@
+{
+	"totalreceipts": 11248,
+	"totalamountreceipts": 79391923386.76,
+	"lenders": 455,
+	"regions": [
+		{
+			"id": 1,
+			"name": "Автономна Республіка Крим",
+			"totalreceipts": 1,
+			"totalamountreceipts": 1100
+		},
+		{
+			"id": 2,
+			"name": "Вінницька",
+			"totalreceipts": 1208,
+			"totalamountreceipts": 5428720919.47
+		},
+		{
+			"id": 3,
+			"name": "Волинська",
+			"totalreceipts": 380,
+			"totalamountreceipts": 2789585550.53
+		},
+		{
+			"id": 4,
+			"name": "Дніпропетровська",
+			"totalreceipts": 535,
+			"totalamountreceipts": 4690606172.32
+		},
+		{
+			"id": 5,
+			"name": "Донецька",
+			"totalreceipts": 241,
+			"totalamountreceipts": 1810977094.72
+		},
+		{
+			"id": 6,
+			"name": "Житомирська",
+			"totalreceipts": 374,
+			"totalamountreceipts": 2525627003.64
+		},
+		{
+			"id": 7,
+			"name": "Закарпатська",
+			"totalreceipts": 71,
+			"totalamountreceipts": 261968286.79
+		},
+		{
+			"id": 8,
+			"name": "Запорізька",
+			"totalreceipts": 395,
+			"totalamountreceipts": 1784782233.07
+		},
+		{
+			"id": 9,
+			"name": "Івано-Франківська",
+			"totalreceipts": 277,
+			"totalamountreceipts": 1160136148.57
+		},
+		{
+			"id": 10,
+			"name": "Київ",
+			"totalreceipts": 177,
+			"totalamountreceipts": 1670423727.33
+		},
+		{
+			"id": 11,
+			"name": "Київська",
+			"totalreceipts": 557,
+			"totalamountreceipts": 4792289228.59
+		},
+		{
+			"id": 12,
+			"name": "Кіровоградська",
+			"totalreceipts": 420,
+			"totalamountreceipts": 3033247416.89
+		},
+		{
+			"id": 13,
+			"name": "Луганська",
+			"totalreceipts": 88,
+			"totalamountreceipts": 337545134.83
+		},
+		{
+			"id": 14,
+			"name": "Львівська",
+			"totalreceipts": 567,
+			"totalamountreceipts": 3911475516.94
+		},
+		{
+			"id": 15,
+			"name": "Миколаївська",
+			"totalreceipts": 477,
+			"totalamountreceipts": 5698964031.43
+		},
+		{
+			"id": 16,
+			"name": "Одеська",
+			"totalreceipts": 893,
+			"totalamountreceipts": 5711135466.43
+		},
+		{
+			"id": 17,
+			"name": "Полтавська",
+			"totalreceipts": 498,
+			"totalamountreceipts": 4355262838.97
+		},
+		{
+			"id": 18,
+			"name": "Рівненська",
+			"totalreceipts": 466,
+			"totalamountreceipts": 4304397486.59
+		},
+		{
+			"id": 20,
+			"name": "Сумська",
+			"totalreceipts": 301,
+			"totalamountreceipts": 1960199922.01
+		},
+		{
+			"id": 21,
+			"name": "Тернопільська",
+			"totalreceipts": 639,
+			"totalamountreceipts": 4415239848.22
+		},
+		{
+			"id": 22,
+			"name": "Харківська",
+			"totalreceipts": 582,
+			"totalamountreceipts": 5476341860.32
+		},
+		{
+			"id": 23,
+			"name": "Херсонська",
+			"totalreceipts": 477,
+			"totalamountreceipts": 2839306848.34
+		},
+		{
+			"id": 24,
+			"name": "Хмельницька",
+			"totalreceipts": 653,
+			"totalamountreceipts": 4228775608.45
+		},
+		{
+			"id": 25,
+			"name": "Черкаська",
+			"totalreceipts": 474,
+			"totalamountreceipts": 2914744382.64
+		},
+		{
+			"id": 26,
+			"name": "Чернівецька",
+			"totalreceipts": 49,
+			"totalamountreceipts": 137599321.94
+		},
+		{
+			"id": 27,
+			"name": "Чернігівська",
+			"totalreceipts": 486,
+			"totalamountreceipts": 3207170623.43
+		}
+	]
+}
