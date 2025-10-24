@@ -26,7 +26,9 @@ h3{
     font-weight: 700;
     font-size: 30px;
     color: #22252E;
+    max-width:750px;
 }
+
 .block-title {
   max-width: 290px;
   white-space: normal;
@@ -910,7 +912,7 @@ b{
 .switch-buttons {
     display: inline-block;
     margin: 20px 0 32px;
-    padding: 6px 25px;
+    padding: 1px 15px;
     background: #fff;
     color: #2B7441;
     border: 1px solid #2B7441;
@@ -919,6 +921,9 @@ b{
     text-decoration: none;
     transition: background-color 0.2s ease;
     cursor:  pointer;
+}
+.switch-buttons.active {
+  font-weight: 700; /* активная кнопка жирная */
 }
 .switch-buttons:hover {
     background-color: #ddd;
@@ -939,6 +944,9 @@ b{
     height: 36px;
     margin: 10px 0;
     display: flex;
+    margin-top:50px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 .switch-button-2{
     display: inline-block;
@@ -966,7 +974,7 @@ b{
 }
 .button-container-little{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .link-to-temeplate{
     color: #2B7441;
