@@ -2,19 +2,35 @@ h1{
     color: #22252E;
     font-weight: 700;
     font-size: 44px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     width: 700;
     line-height: 1.2;
+    margin-top: 100px;
 }
 h2{
     color: #22252E;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+    text-justify: inter-word; /* улучшает распределение пробелов */
+    line-height: 1.4;
+}
+.first-block .buttons-block {
+  margin-top: 45px;   /* подбери 24–36px под макет */
+}
+
+/* Правый блок (если там тот же кейс) */
+.second-block .buttons-block {
+  margin-top: 70px;
 }
 h3{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
     color: #22252E;
+}
+.block-title {
+  max-width: 290px;
+  white-space: normal;
+  line-height: 1.2;
 }
 h4{
     font-weight: 400;
@@ -32,6 +48,15 @@ h4{
   font-weight: 700;  /* или 600, если нужно чуть легче */
   font-size: 24px;
   color: #ffffff;
+}
+.first-block-body h2,
+.second-block-body h2 {
+  max-width: 450px;       /* подбери 560–620px под свой макет */
+  line-height: 1.4;
+  font-weight: 400;       /* чтобы не тянулся жирный из глобального h2 */
+  text-justify: inter-word;
+  white-space: normal;
+  display: block;
 }
 h5 {
     font-weight: 400;
