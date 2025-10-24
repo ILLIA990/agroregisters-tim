@@ -28,7 +28,9 @@ h3{
     color: #22252E;
     max-width:750px;
 }
-
+.page h3 {
+  margin-bottom: 50px !important;
+}
 .block-title {
   max-width: 290px;
   white-space: normal;
@@ -986,7 +988,7 @@ b{
 
 .btn-download{
     display: inline-block;
-    margin: 20px 0 32px;
+    margin: 52px 0 140px;
     padding: 6px 25px;
     background-color: #2B7441;
     color: white;
