@@ -6,9 +6,11 @@
 .page-k {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 144px;
+    margin-left: 144px;
 }
-
 .page-k-w {
     background-color: #FFFFFF;
     padding: 20px 0;
@@ -19,7 +21,7 @@
 }
 
 .types-cards {
-    gap: 90px;
+    gap: 50px;
     display: flex;
 }
 .ifc-section a{
@@ -33,7 +35,10 @@
     border-radius: 8px;
     flex: 1;
     gap: 30px;
-    padding: 20px;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
     box-shadow: 4px 4px 20px 0px #0000001A;
 }
 
@@ -74,11 +79,12 @@ section.admin-section {
 
 section.types-section {
     background: #1E5932;
-    padding: 80px 0;
+    padding: 1px 0;
 }
 
 section.types-section h1 {
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .icon-features-section {
@@ -91,7 +97,10 @@ section.types-section h1 {
 .features-section-card {
     background: #ffffff;
     border-radius: 8px;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30;
+    padding-top: 36px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 20px 0px #0000001A;
@@ -105,7 +114,7 @@ section.types-section h1 {
 }
 
 .intro-section img {
-    border-radius: 20px;
+    border-radius: 0px;
     width: 465px;
     height: 510px;
     object-fit: cover;
