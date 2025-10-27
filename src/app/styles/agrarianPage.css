@@ -10,6 +10,9 @@
     margin-bottom: 70px;
     
 }
+.page-k .ifc-section {
+  margin-bottom: 120px !important; /* поставь нужное значение */
+}
 .page-k-w {
     background-color: #FFFFFF;
     padding: 20px 0;
@@ -68,12 +71,22 @@ section.intro-section {
     justify-content: space-between;
     gap: 20px;
 }
+.page-k .intro-section {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 
 section.admin-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
+}
+.page-k .admin-section {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  align-items: center; /* выровнять текст по вертикали */
+  gap: 40px; /* расстояние между картинкой и текстом */
 }
 
 section.types-section {
@@ -117,6 +130,13 @@ section.types-section h1 {
     width: 465px;
     height: 510px;
     object-fit: cover;
+}
+.intro-section img[src*="agrarian-2.png"] {
+  /* стили применятся только к agrarian-2.png */
+  width: 536px;
+  height: 390px;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 section.important-section {

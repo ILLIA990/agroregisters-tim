@@ -45,6 +45,14 @@ h1{
   margin-bottom: 1px;    /* Отступ между абзацами */
   width:590;
 }
+.page-k .admin-section .text-block p {
+  color: #22252E;      /* цвет текста */
+  font-size: 20px;     /* размер шрифта */
+  line-height: 1.3;    /* межстрочный интервал */
+  margin-bottom:10px; /* расстояние между абзацами */
+  width: 530;
+}
+
 .important-section h1 {
   color: #22252E;
   font-size: 44px;
@@ -54,6 +62,24 @@ h1{
   margin-top: 10px;
   margin-bottom: 50px;
 }
+.intro-section .text-block h1 {
+  color: #22252E;      /* нужный цвет */
+  font-size: 42px;     /* нужный размер */
+  font-weight: 700;    /* жирность */
+  line-height: 1.2;    /* межстрочный интервал */
+  margin-bottom: 40px; /* отступ снизу */
+  width: 580;
+}
+.page-k .ifc-section h1 {
+  color: #22252e;         /* цвет текста */
+  font-size: 44px;        /* размер шрифта */
+  font-weight: 700;       /* жирность */
+  line-height: 1.2;       /* межстрочный интервал */
+  margin-top: 100;          /* убираем лишний отступ сверху */
+  margin-bottom: 40px;    /* отступ снизу */
+  width: 1100px;           /* ширина блока (если нужно ограничить строку) */
+}
+
 h2{
     color: #22252E;
     font-weight: 400;
@@ -223,6 +249,24 @@ p{
     font-size: 16px;
     font-weight: 400;
     color: #22252E;
+}
+.page-k .ifc-section p {
+  color: #22252e;          /* цвет текста */
+  font-size: 20px;         /* размер шрифта */
+  line-height: 1.6;        /* межстрочный интервал для читаемости */
+  margin-bottom: 0px;     /* отступ между абзацами */
+  font-weight: 400;        /* обычная толщина */
+  width: 1100;
+}
+
+/* Стили для ссылок в этом блоке (если нужно подсветить ссылку) */
+.page-k .ifc-section p a {
+  color: #007b55;          /* зелёный оттенок под дизайн */
+  text-decoration: underline;
+}
+
+.page-k .ifc-section p a:hover {
+  color: #005c3c;          /* чуть темнее при наведении */
 }
 li {
     color: #22252e;
