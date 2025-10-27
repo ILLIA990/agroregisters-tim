@@ -11,7 +11,7 @@ h1{
   color: #22252e;
   font-size: 42px;
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 1000px;
   line-height: 1.3;
   margin-bottom: 50px;
@@ -45,6 +45,15 @@ h1{
   margin-bottom: 1px;    /* Отступ между абзацами */
   width:590;
 }
+.important-section h1 {
+  color: #22252E;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 900;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 h2{
     color: #22252E;
     font-weight: 400;
@@ -72,12 +81,76 @@ h2{
   font-weight: 400;     /* толщина */
   width: 460px;         /* или любое нужное значение */
 }
-.features-section h2 {
-  color: #22252E;          /* цвет текста */
-  font-size: 20px;      /* размер шрифта */
-  font-weight: 400;     /* толщина */  /* выравнивание (если нужно) */
-  margin-top: 10px;     /* отступ сверху */
-  line-height: 1.4;     /* межстрочный интервал */
+.features-list .features-section-card:nth-child(1) h2 {
+  /* примеры настроек – меняй под себя */
+  color: #22252E;
+  font-size: 22px;
+  width: 240px;
+  line-height: 1.25;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* 2-я карточка */
+.features-list .features-section-card:nth-child(2) h2 {
+  color: #1f2937;
+  font-size: 22px;
+  width: 240px;
+  line-height: 1.25;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+/* 3-я карточка */
+.features-list .features-section-card:nth-child(3) h2 {
+  color: #1f2937;
+  font-size: 22px;
+  width: 320px;
+  line-height: 1.25;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+/* 4-я карточка */
+.features-list .features-section-card:nth-child(4) h2 {
+  color: #1f2937;
+  font-size: 22px;
+  width: 300px;
+  line-height: 1.25;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+/* 5-я карточка */
+.features-list .features-section-card:nth-child(5) h2 {
+  color: #1f2937;
+  font-size: 22px;
+  width: 320px;
+  line-height: 1.25;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+/* 6-я карточка */
+.features-list .features-section-card:nth-child(6) h2 {
+  color: #1f2937;
+  font-size: 22px;
+  width:320px;
+  line-height: 1.25;
+   margin-top: 20px;
+}
+.features-list .features-section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  
+}
+.features-section .features-list {
+  display: grid;
+  column-gap: 50px; /* 👈 только для этого блока */
+  row-gap: 50px;
+  margin-top: 40px;
 }
 h3{
     font-weight: 700;

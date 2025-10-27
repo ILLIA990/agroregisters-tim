@@ -119,6 +119,20 @@ audio,canvas,embed,iframe,img,object,svg,video {
 img,video {
   max-width: 100%;
   height: auto;
+  
+}
+.icons-block img:first-child {
+  width: 90px;
+  height: 89px;
+   margin-left: -8px;
+   display: block;
+}
+
+/* вторая иконка (галочка) */
+.icons-block img:last-child {
+  width: 17px;
+  height: 17px;
+  margin-left: 0px;
 }
 .types-section .card-top img {
   height: 83px !important;  /* твой нужный размер */

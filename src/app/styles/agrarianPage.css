@@ -6,10 +6,9 @@
 .page-k {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 144px;
-    margin-left: 144px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    
 }
 .page-k-w {
     background-color: #FFFFFF;
@@ -100,7 +99,7 @@ section.types-section h1 {
     padding-left: 30px;
     padding-right: 30;
     padding-top: 36px;
-    padding-bottom: 40px;
+    padding-bottom: 36px;
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 20px 0px #0000001A;
