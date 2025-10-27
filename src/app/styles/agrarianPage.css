@@ -126,9 +126,16 @@ section.important-section {
 
 .important-list-numbers {
     color: #fff;
-    background: #2b7441;
-    border-radius: 7px;
-    padding: 10px;
+  background: #2b7441;
+  width: 44px;          /* одинаковая ширина */
+  height: 44px;         /* одинаковая высота */
+  border-radius: 50%;   /* делает круг */
+  display: flex;        /* чтобы цифры были по центру */
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
 .sections-section-card {

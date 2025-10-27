@@ -152,6 +152,14 @@ h2{
   row-gap: 50px;
   margin-top: 40px;
 }
+.important-section .sections-section-card h2 {
+  color: #22252e;       /* цвет текста */
+  font-size: 18px;      /* размер шрифта */
+  font-weight: 500;     /* толщина */
+  line-height: 1.4;     /* высота строки */
+  text-align: left;     /* выравнивание */
+  width:990;
+}
 h3{
     font-weight: 700;
     font-size: 30px;
