@@ -16,8 +16,8 @@ export default function TD() {
         ));
     }
     return (
-        <div className="page">
-            <h1>{t('Title')}</h1>
+        <div className="page">\
+        <div className='page-h1templates' ><h1>{t('Title')}</h1></div>
             <h2>{renderWithLineBreaks(t('Description'))}</h2>
             <div className="divide-two-parts">
                 <div className="first-block">

@@ -10,6 +10,9 @@
     margin-bottom: 70px;
     
 }
+.agro-creditor {
+  padding-top: 80px; /* безопаснее и аккуратнее */
+}
 .page-k .ifc-section {
   margin-bottom: 120px !important; /* поставь нужное значение */
 }
@@ -72,8 +75,8 @@ section.intro-section {
     gap: 20px;
 }
 .page-k .intro-section {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 section.admin-section {
@@ -135,7 +138,7 @@ section.types-section h1 {
   /* стили применятся только к agrarian-2.png */
   width: 536px;
   height: 390px;
-  border-radius: 15px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -147,14 +150,14 @@ section.important-section {
 .important-list-numbers {
     color: #fff;
   background: #2b7441;
-  width: 44px;          /* одинаковая ширина */
-  height: 44px;         /* одинаковая высота */
+  width: 38px;          /* одинаковая ширина */
+  height: 38px;         /* одинаковая высота */
   border-radius: 50%;   /* делает круг */
   display: flex;        /* чтобы цифры были по центру */
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 16px;
   flex-shrink: 0;
 }
 
@@ -164,8 +167,8 @@ section.important-section {
     align-items: center;
     gap: 30px;
     background: #F2F1EE;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 5px;
 }
 
 .important-list {
@@ -177,7 +180,7 @@ section.important-section {
 .ifc-section-img {
     flex-direction: row;
     align-items: flex-start;
-    margin: 30px 0;
+    margin: 50px 0;
     display: flex;
     gap: 20px;
 }

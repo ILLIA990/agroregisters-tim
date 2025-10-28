@@ -31,6 +31,9 @@
 }
 h3.block-title {
     color: white;
+    padding: 10px;
+    font-size: 30px;
+    max-width: 400;
 }
 .first-block-body {
     display: flex;
@@ -85,6 +88,12 @@ h3.block-title {
 ;
     flex-direction: column;
     align-items: flex-start;
+}
+.page-h1templates h1 {
+ color: #22252e;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 35px;
 }
 
 @media (max-width: 768px) {

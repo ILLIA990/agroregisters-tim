@@ -23,6 +23,7 @@
   margin-bottom: 16px;
   font-weight: 700;  
   font-size: 20px;
+  margin-top: 77px;
 }
 
 .agro-hero-text .description {
@@ -93,6 +94,7 @@
 }
 .card-home h2 {
     color: #fff;
+    width: 220;
 }
 .card-home p {
     color: #fff;
@@ -155,6 +157,7 @@
     width: 50%;
 }
 .creditor-text h2{
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -187,8 +190,8 @@
   margin-bottom: 50px;
 }
 .agro-wrapper .page-k:has(.cards) {
-  padding-top: 50px;     /* пространство над заголовком */
-  padding-bottom: 50px;  /* пространство под карточками */
+  padding-top: 40px;     /* пространство над заголовком */
+  padding-bottom: 0px;  /* пространство под карточками */
 }
 
 /* Отступ между заголовком и карточками */
