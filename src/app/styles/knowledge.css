@@ -10,7 +10,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 30;
+    width:900px;
 }
 .lib-item {
     background-color: #fff;
@@ -19,6 +21,15 @@
     border-radius: 50px;
     transition: all 0.3s;
     position: relative;
+}
+.lib-wrap .lib-item a {
+  font-weight: 400;
+}
+
+/* жирный только у активного */
+.lib-wrap .lib-item.active a {
+  font-weight: 600;
+  color: #007c3d
 }
 .lib-item:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -119,6 +130,7 @@
     border-radius: 18px;
     text-decoration: none;
     transition: background-color 0.2s ease;
+    margin-top: 30px;
 }
 .description a{
     color: #007c3d;
@@ -180,6 +192,30 @@
 .lib-item.active a {
     color: #ffffff;
 } */
+.page:has(.lib-item.item-4.active) .post-item h2 {
+  font-weight: 600; /* или 700, если нужно жирнее */
+  font-size: 24;
+}
+.page:has(.lib-item.item-5.active) .post-item h2 {
+  font-weight: 600;
+  font-size: 24;
+  width: 1000px;
+}
+.page:has(.lib-item.item-6.active) .post-item h2 {
+  font-weight: 600; /* или 700, если нужно жирнее */
+  font-size: 24;
+}
+.page:has(.lib-item.item-13.active) .post-item h2 {
+  font-weight: 600; /* или 700, если нужно жирнее */
+  font-size: 24;
+  width: 1050px;
+}
+.page:has(.lib-item.item-14.active) .post-item h2 {
+  font-weight: 600; /* или 700, если нужно жирнее */
+  font-size: 24;
+  width: 1050px;
+}
+
 
 @media (max-width: 768px) {
     .container.wide {

@@ -511,7 +511,8 @@ b{
     justify-content: center;
     align-items: center;
     gap: 6px;
-    padding: 20px 0;
+    margin-top: 55;
+    margin-bottom: 100;
 }
 
 .news-page-link {
