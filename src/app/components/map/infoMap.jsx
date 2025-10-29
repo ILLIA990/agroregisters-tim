@@ -86,9 +86,11 @@ const InfoMap = () => {
 
 						<div className='info-time'>
 							{lastUpdated ? (
-								<h5>
+								<h5 className="info-time__title">
 									{t('asOf')} {formatUADate(lastUpdated)}
+									
 								</h5>
+								
 							) : (
 								<Skeleton.Input style={{ width: 120 }} active size='small' />
 							)}
