@@ -24,7 +24,7 @@ export default function NotariesPageComponent() {
 
     return (
         <main className="page">
-            <h1>{t('Title')}</h1>
+            <div className="notariesh1-page"><h1>{t('Title')}</h1></div>
             <div className="toggle-buttons">
                 <button
                     className={view === 'top' ? 'active-button' : ''}
@@ -40,7 +40,7 @@ export default function NotariesPageComponent() {
                 </button>
             </div>
             {view === 'top' ? <TopNotariesTable /> : <NotaryTable />}
-            <h6 style={{ marginTop: '40px', textAlign: 'center' }}>
+            <h6 style={{ marginTop: '60px', textAlign: 'center', marginBottom: '100PX' }}>
                 {t('Note1')}{' '}
                 <a style={{ color: '#2B7441' }} href="mailto:admindp@agroregisters.com.ua">
                     admindp@agroregisters.com.ua

@@ -95,7 +95,9 @@ h3.block-title {
   font-weight: 700;
   margin-bottom: 35px;
 }
-
+.page .container.wide > h1 {
+  font-weight: 60 !important; /* ставь любое нужное значение */
+}
 @media (max-width: 768px) {
     .divide-two-parts {
         flex-direction: column;

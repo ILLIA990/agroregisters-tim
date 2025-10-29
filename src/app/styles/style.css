@@ -81,7 +81,14 @@ h1{
   margin-bottom: 40px;    /* отступ снизу */
   width: 1100px;           /* ширина блока (если нужно ограничить строку) */
 }
-
+.page .container.wide > h1 {
+  font-weight: 700 !important; /* ставь любое нужное значение */
+  margin-top: 79;
+}
+.notariesh1-page h1 {
+    margin-top: 79;
+    margin-bottom: 50px;
+}
 h2{
     color: #22252E;
     font-weight: 400;
@@ -255,6 +262,9 @@ h6{
     font-weight: 400;
     font-size: 14px;
     color: #8F94A6;
+}
+.notaries-page .notaries-bottom-text {
+  margin-bottom: 100px; /* можно поставить любое нужное значение */
 }
 p{
     font-size: 16px;
@@ -512,7 +522,7 @@ b{
     align-items: center;
     gap: 6px;
     margin-top: 55;
-    margin-bottom: 100;
+    margin-bottom: 60;
 }
 
 .news-page-link {
@@ -793,20 +803,21 @@ b{
     background-color: #2b7441;
     color: #fff;
     border-color: #2b7441;
+    font-weight: 700;
 }
 .toggle-buttons button {
     cursor: pointer;
     display: inline-block;
-    padding: 7px 15px;
+    padding: 8px 15px;
     background-color: #ffffff;
     border: solid 0.5px #2b7441;
-    border-radius: 20px;
+    border-radius: 18px;
     color: #2b7441;
     font-weight: 400;
     font-size: 16px;
     transition: all 0.3s ease;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-right: 18px;
+    margin-bottom: 50px;
 }
 .news-list {
     display: flex;
