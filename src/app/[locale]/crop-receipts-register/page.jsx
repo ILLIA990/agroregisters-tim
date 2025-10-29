@@ -10,6 +10,7 @@ export default function RarPage() {
 
     return (
 			<div className='page'>
+			<div className="divide-two-parts rar-divide"></div>
 				<div className='divide-two-parts'>
 					<div className='access-block public'>
 						<div className='rar-header'>

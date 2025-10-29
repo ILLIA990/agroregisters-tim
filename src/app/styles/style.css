@@ -297,6 +297,9 @@ b{
     max-width: 1200px;
     min-height: 600px;
 }
+.rar-divide {
+  margin-top: 89px; /* любое значение */
+}
 .white-page{
     background: #ffffff;
 }
