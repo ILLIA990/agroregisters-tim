@@ -1,5 +1,5 @@
 .contact-grid {
-    margin: 40px 0;
+    margin: 100px 40;
     display: flex;
     justify-content: space-between;
 }
@@ -9,6 +9,13 @@
     object-fit: cover;
     max-width: 100%;
     height: auto;
+}
+.contact-info > h1 {
+  /* твои изменения */
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000000;
 }
 
 .contact-info {
@@ -22,12 +29,14 @@
 
 .contact-info p {
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
+    width: 550;
 }
 
 .contact-info a {
     color: #1E5932;
     text-decoration: underline;
+    width: 115;
 }
 .contacts-logo {
     display: flex;

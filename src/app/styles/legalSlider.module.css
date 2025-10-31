@@ -11,8 +11,9 @@
     color: #22252E;
     text-align: center;
     text-align: left;
+    margin-top: 60;
+    margin-bottom: 30;
 }
-
 .slide {
     height: 600px;
     position: relative;

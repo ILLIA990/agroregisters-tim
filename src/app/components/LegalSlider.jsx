@@ -33,8 +33,10 @@ export default function LegalSlider() {
         <div className={styles.container}>
             <div className="headerLegal">
                 <div>
-                    <h2 className={styles.heading}>{t('title1')}</h2>
-                    <h2 className={styles.heading}>{t('title2')}</h2>
+                    <h2 className={styles.heading}>{t('title1')}
+                        <br />
+                        {t('title2')}</h2>
+                    
                 </div>
                 <img src="/scale-of-justice.svg" alt="justice scale" />
             </div>
