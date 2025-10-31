@@ -5,6 +5,7 @@
 }
 .agro-hero-text h1{
     font-size: 44px;
+    line-height: 1.2;
 }
 .agro-hero {
     justify-content: space-between;
