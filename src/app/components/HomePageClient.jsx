@@ -13,6 +13,7 @@ export default function AgroReceipts() {
 			<div className='page'>
 				<div className='agro-hero'>
 					<div className='agro-hero-text'>
+
 						<h1>
 							<span className='highlight'>{t('titleHighlight')}</span> —{' '}
 							{t('title')}
@@ -85,6 +86,12 @@ export default function AgroReceipts() {
 							</a>
 						</div>
 					</div>
+					<img
+						src="/home/Intersect.svg"
+						alt=""
+						aria-hidden="true"
+						className="creditor-decor"
+						/>
 				</div>
 			</div>
 			<div className='page-k'>
