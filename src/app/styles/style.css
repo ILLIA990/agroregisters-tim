@@ -22,10 +22,10 @@ h1{
   font-size: 30px !important; /* можно 30 или 20 — подбери по дизайну */
 }
 .faq-container .faq-title {
-  font-size: 30px !important;
+  font-size: 44px !important;
   font-weight: 700;
-  margin-bottom: 50px;
-  margin-top: 25px;
+  margin-bottom: 70px;
+  margin-top: 80px;
 }
 .page .faq-container .faq-question h4 {
   font-size: 18px !important;
@@ -93,6 +93,7 @@ h1{
   margin-top: 50px !important; /* поставь нужное значение */
   margin-bottom: 40px;
 }
+
 h2{
     color: #22252E;
     font-weight: 400;

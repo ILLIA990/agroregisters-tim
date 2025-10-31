@@ -49,6 +49,8 @@
 }
 .faq-header h4{
     color: #fff;
+    font-weight: 700;
+    font-size: 22;
 }
 .faq-questions{
     margin-top: 10px;
