@@ -84,7 +84,9 @@ export default function NewsDp() {
                                         />
                                     </div>
                                 </div>
-                                <h3 dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+                                <h3
+                                className="news-card-title"
+                                dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
                             </div>
                             <a className="news-card-button" href={`/news/${post.id}`}>
                                 {t('readMore')}

@@ -89,6 +89,10 @@ h1{
     margin-top: 79;
     margin-bottom: 50px;
 }
+.news-container > h1 {
+  margin-top: 50px !important; /* поставь нужное значение */
+  margin-bottom: 40px;
+}
 h2{
     color: #22252E;
     font-weight: 400;
@@ -224,6 +228,11 @@ h3{
 }
 .types-section .card:last-child .card-top h3 {
   width: 370px !important; /* или нужное тебе значение */
+  line-height: 1.2;
+}
+.row-blog-messonary .custom-news-card .news-card-inner .news-card-title {
+  font-weight: 600; 
+  font-size: 30;
   line-height: 1.2;
 }
 h4{
@@ -578,11 +587,12 @@ b{
 
 .news-title-main {
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
     color: #22252e;
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 70;
 }
 .news-block {
     display: flex;
@@ -592,7 +602,7 @@ b{
     margin-bottom: 20px;
     overflow: hidden;
     transition: transform 0.2s;
-    height: 200px;
+    height: 274px;
     width: 100%;
     max-width: 1200px;
 }
@@ -610,7 +620,8 @@ b{
     gap: 6px;
     font-size: 14px;
     color: #7a7a7a;
-    margin-bottom: 6px;
+    margin-bottom: 25px;
+    margin-left: 20;
 }
 
 .news-favicon {
@@ -623,10 +634,11 @@ b{
 
 .news-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #22252e;
+    margin-left: 20;
 }
 .news-button {
     background-color: transparent;
@@ -639,7 +651,8 @@ b{
     font-size: 16px;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 40px;
+    margin-bottom: 20px;
     border: solid 0.5px #1e5932;
     transition: background 0.3s ease;
     cursor: pointer;
@@ -867,7 +880,7 @@ b{
 .custom-news-card {
     display: flex;
     width: 550px;
-    min-height: 280px;
+    min-height: 380px;
     background: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -926,6 +939,7 @@ b{
     width: fit-content;
     transition: background-color 0.3s;
     bottom: 10px;
+    margin-bottom: 20;
 }
 
 .news-card-button:hover {
