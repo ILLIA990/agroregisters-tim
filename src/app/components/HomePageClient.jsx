@@ -13,7 +13,6 @@ export default function AgroReceipts() {
 			<div className='page'>
 				<div className='agro-hero'>
 					<div className='agro-hero-text'>
-
 						<h1>
 							<span className='highlight'>{t('titleHighlight')}</span> —{' '}
 							{t('title')}
@@ -22,7 +21,7 @@ export default function AgroReceipts() {
 						<p className='description'>{t('description')}</p>
 						<a
 							className='btn-primary'
-							href='https://sitenew.agroregisters.com.ua/wp-content/uploads/2019/09/CR-basics.pdf'
+							href='/knowledge'
 						>
 							{t('detailsButton')}
 						</a>
@@ -44,23 +43,17 @@ export default function AgroReceipts() {
 					<div className='cards'>
 						<div className='card-home card-orange'>
 							<h3>{t('farmersName1')}</h3>
-							<p className='location'>
-								{t('farmersLocation1')}
-							</p>
+							<p className='location'>{t('farmersLocation1')}</p>
 							<h2>{t('farmer1Text')}</h2>
 						</div>
 						<div className='card-home card-green'>
 							<h3>{t('farmersName2')}</h3>
-							<p className='location'>
-								{t('farmersLocation2')}
-							</p>
+							<p className='location'>{t('farmersLocation2')}</p>
 							<h2>{t('farmer2Text')}</h2>
 						</div>
 						<div className='card-home card-olive'>
 							<h3>{t('farmersName3')}</h3>
-							<p className='location'>
-								{t('farmersLocation3')}
-							</p>
+							<p className='location'>{t('farmersLocation3')}</p>
 							<h2>{t('farmer3Text')}</h2>
 						</div>
 					</div>
@@ -68,6 +61,11 @@ export default function AgroReceipts() {
 			</div>
 
 			<div className='agro-creditor'>
+				<img
+					className='image-green-creditor'
+					src='/agro-comp-green.svg'
+					alt=''
+				/>
 				<div className='page-k'>
 					<div className='agro-creditor-1'>
 						<div className='creditor-img'>
@@ -87,11 +85,11 @@ export default function AgroReceipts() {
 						</div>
 					</div>
 					<img
-						src="/home/Intersect.svg"
-						alt=""
-						aria-hidden="true"
-						className="creditor-decor"
-						/>
+						src='/home/Intersect.svg'
+						alt=''
+						aria-hidden='true'
+						className='creditor-decor'
+					/>
 				</div>
 			</div>
 			<div className='page-k'>

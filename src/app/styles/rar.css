@@ -90,3 +90,12 @@
         margin: 30px 0;
     }
 }
+ul.custom-list {
+  list-style-type: disc; /* стандартные кружочки */
+  padding-left: 1.5rem;
+}
+
+ul.custom-list li::marker {
+  color: #2E7D32; /* твой цвет (например, зелёный) */
+  font-size: 1.1em; /* можно чуть увеличить */
+}

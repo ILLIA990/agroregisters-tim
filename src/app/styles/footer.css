@@ -49,6 +49,7 @@
     font-size: 16px;
     font-weight: 400;
     margin: 5px 0;
+    text-align: end;
 }
 .footer-socials {
     display: flex;
@@ -71,11 +72,8 @@
     color: #ffffff;
     text-decoration: underline;
 }
-.footer-dev{
-    color: #ffffff;
-}
-.footer-copy{
-    color: #ffffff;
+.footer-dev, .footer-copy {
+    color: #858585;
 }
 @media (max-width: 768px) {
     .footer-top {

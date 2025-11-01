@@ -36,7 +36,10 @@ const Footer = () => {
 								>
 									admindp@agroregisters.com.ua
 								</a>
-								<p className='footer-contact'>{t('adress')}</p>
+								<p
+									className='footer-contact'
+									dangerouslySetInnerHTML={{ __html: t('adress') }}
+								></p>
 							</div>
 						</div>
 					</div>

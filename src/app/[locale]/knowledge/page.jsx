@@ -1,9 +1,22 @@
 import '@/app/styles/style.css'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import '@/app/styles/agrarianPage.css'
 
 export default function KnowledgeCatPage() {
 	const t = useTranslations('agrarian')
+	const locale = useLocale() // вернёт 'uk', 'en', 'ru' и т.д.
+
+	// Соответствие локали и ID категории
+	const catMap = {
+		uk: 4,
+		en: 51,
+	}
+
+	// Берём нужный ID (или дефолтный 4)
+	const categoryId = catMap[locale] || 4
+
+	// Формируем путь с локалью
+	const href = `/${locale}/knowledge/category/${categoryId}`
 
 	return (
 		<main>
@@ -15,7 +28,9 @@ export default function KnowledgeCatPage() {
 							<h1>{t('what_is_title')}</h1>
 							<p dangerouslySetInnerHTML={{ __html: t.raw('what_is_text') }} />
 							<br />
-							<p dangerouslySetInnerHTML={{ __html: t.raw('what_is_text_2') }} />
+							<p
+								dangerouslySetInnerHTML={{ __html: t.raw('what_is_text_2') }}
+							/>
 						</div>
 						<img src='/agrarian-about.png' alt='Agrarian' />
 					</section>
@@ -147,6 +162,9 @@ export default function KnowledgeCatPage() {
 								<h2 dangerouslySetInnerHTML={{ __html: t('important_7') }} />
 							</div>
 						</div>
+						<a className='btn-primary' href={href}>
+							{t('detailsButton')}
+						</a>
 					</div>
 				</section>
 
@@ -156,7 +174,9 @@ export default function KnowledgeCatPage() {
 							<h1>{t('registry_title')}</h1>
 							<p dangerouslySetInnerHTML={{ __html: t.raw('registry_text') }} />
 							<br />
-							<p dangerouslySetInnerHTML={{ __html: t.raw('registry_text_2') }} />
+							<p
+								dangerouslySetInnerHTML={{ __html: t.raw('registry_text_2') }}
+							/>
 						</div>
 						<img src='/agrarian-2.png' alt='Agrarian' />
 					</section>

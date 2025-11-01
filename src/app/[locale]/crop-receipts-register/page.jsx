@@ -10,7 +10,7 @@ export default function RarPage() {
 
     return (
 			<div className='page'>
-			<div className="divide-two-parts rar-divide"></div>
+				<div className='divide-two-parts rar-divide'></div>
 				<div className='divide-two-parts'>
 					<div className='access-block public'>
 						<div className='rar-header'>
@@ -27,7 +27,7 @@ export default function RarPage() {
 							<p>{t('block_first.text1')}</p>
 							<br />
 							<p>{t('block_first.text2')}</p>
-							<ul>
+							<ul className='custom-list'>
 								<li>{t('block_first.list1.0')}</li>
 								<li>{t('block_first.list1.1')}</li>
 								<li>{t('block_first.list1.2')}</li>

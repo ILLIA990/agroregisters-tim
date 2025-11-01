@@ -94,3 +94,19 @@
     font-size: 36px;
     color: #333;
 }
+.video-preview-history{
+    background-color: #D9D9D9;
+    height: 482px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    margin: 55px auto;
+}
+.play-icon-history {
+    color: #767474;
+    font-size: 86px;
+}

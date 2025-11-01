@@ -51,9 +51,6 @@ export default function SuccessStories() {
                 {stories.map((story, idx) => (
                     <div className="news-block" key={idx}>
                         <div className="news-content">
-                            <div className="news-meta">
-                                <span className="news-meta-text">{story.date}</span>
-                            </div>
                             <div className="news-title">{story.title}</div>
                             <a
                                 href={story.href}

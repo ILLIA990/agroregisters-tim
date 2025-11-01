@@ -234,6 +234,11 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.image-green-creditor {
+    position: absolute;
+    right: 0;
+    margin-top: -45px;
+}
 @media (max-width: 768px) {
     .page-k {
         padding: 10px;
