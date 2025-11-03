@@ -59,7 +59,7 @@ function Component2() {
 
     return (
         <div>
-            <h3 style={{ marginBottom: '20px' }}>{t('title')}</h3>
+            <h3 style={{ marginBottom: '50px' }}>{t('title')}</h3>
             <ol type="1">
                 {[...Array(16)].map((_, i) => (
                     <li key={i} className="notaries-algorithm-text" style={{ display: 'flex' }}>
@@ -218,7 +218,7 @@ export default function Extra() {
     return (
         <div className="white-page">
             <div className="page">
-                <h1>{t('title')}</h1>
+                <div className='page-notaries'><h1>{t('title')}</h1></div>
                 <div className="button-container-instructions">
                     <div className="button-container-little">
                         <button
