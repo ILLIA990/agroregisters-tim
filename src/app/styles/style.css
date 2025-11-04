@@ -227,11 +227,11 @@ h3{
   line-height: 1.2;
 }
 .types-section .card:first-child .card-top h3 {
-  width: 350px !important; /* или нужное тебе значение */
+  width: 350px ; /* или нужное тебе значение */
   line-height: 1.2;
 }
 .types-section .card:last-child .card-top h3 {
-  width: 370px !important; /* или нужное тебе значение */
+  width: 370px; /* или нужное тебе значение */
   line-height: 1.2;
 }
 .row-blog-messonary .custom-news-card .news-card-inner .news-card-title {
@@ -1265,8 +1265,7 @@ b{
         text-align: center;
     }
 
-    .switch-buttons,
-    .switch-button-2 {
+    .switch-buttons,.switch-button-2 {
         text-align: center;
         width: 100%;
         padding: 8px;
@@ -1406,6 +1405,12 @@ b{
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
+}
+.page-k .admin-section {
+    align-items: center;
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 0;
 }
 .page-k .ifc-section h1 {
     color: #22252e;
