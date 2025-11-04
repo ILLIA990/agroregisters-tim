@@ -72,19 +72,20 @@
     }
 
     .contact-info p {
-        font-size: 14px;
         margin-bottom: 12px;
+        font-size: 14px;
+        width: auto;
     }
 
     .contacts-logo {
         justify-content: flex-start;
         gap: 15px;
-        padding: 0 15px;
+        padding: 0;
     }
 
     .contact-social {
         margin-top: 8px;
-        padding: 0 15px;
+        padding: 0;
     }
 
     .phone, .email {
@@ -93,4 +94,7 @@
         display: flex;
         align-items: center;
     }
+    .contact-info > h1 {
+    margin-bottom: 25px;
+}
 }

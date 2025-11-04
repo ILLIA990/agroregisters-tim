@@ -110,7 +110,6 @@ h3.block-title {
 
     .first-block-header,
     .second-block-header {
-        flex-direction: column;
         align-items: flex-start;
         gap: 10px;
     }
@@ -131,4 +130,18 @@ h3.block-title {
         text-align: center;
         margin-top: 10px;
     }
+    .page-h1templates h1 {
+    color: #22252e;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+h3.block-title {
+    color: #fff;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 24px;
+}
+
 }

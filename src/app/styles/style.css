@@ -1267,10 +1267,11 @@ b{
 
     .switch-buttons,
     .switch-button-2 {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
         text-align: center;
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        margin: 5px 0;
     }
 
     .button-container-instructions {
@@ -1279,9 +1280,10 @@ b{
     }
 
     .button-container-little {
-        display: grid;
-        gap: 8px;
         grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        display: grid;
+        margin-top: 20px;
     }
 
     .notaries-algorithm-numbers {
@@ -1304,6 +1306,178 @@ b{
     .notaries-algorithm-block {
         margin: 20px 0;
     }
+    .faq-container .faq-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.intro-section .text-block h1 {
+    color: #22252e;
+    width: 580px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.page-k .text-block p {
+    color: #22252e;
+    width: auto;
+    margin-bottom: 1px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.page-k .intro-section {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+.types-section .page-k > h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.types-section .card:first-child .card-top h3 {
+    line-height: 1.2;
+    width: auto;
+}
+.types-section .card:last-child .card-top h3 {
+    line-height: 1.2;
+    width: auto;
+}
+.types-section .card:first-child h2, .types-section .card:last-child h2 {
+    width: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.features-section .page-k > h1 {
+    color: #22252e;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.features-list > .features-section-card {
+    padding: 20px;
+
+}
+.important-section h1 {
+    color: #22252e;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section.important-section {
+    background: #fff;
+    padding: 20px 0;
+}
+.important-section .sections-section-card h2 {
+    color: #22252e;
+    text-align: left;
+    width: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.intro-section .text-block h1 {
+    color: #22252e;
+    width: auto;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.page-k .admin-section .text-block p {
+    color: #22252e;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.page-k .text-block h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.page-k .admin-section {
+    align-items: center;
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.page-k .ifc-section h1 {
+    color: #22252e;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.page-k .ifc-section p {
+    color: #22252e;
+    width: auto;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.ifc-section-img {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 50px 0;
+    display: flex;
+}
+.page .container.wide > h1 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+.notariesh1-page h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.page .infoBigBlock .infoLittleBlock > h1 {
+    color: #22252e;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+.info-time {
+    color: #fff;
+    background: #2b7441;
+    border-width: 1px;
+    border-radius: 50px;
+    max-width: max-content;
+    margin-top: 24px;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.toggle-buttons button {
+    margin-bottom: 18px;
+    margin-right: 7px;
+    padding: 6px 12px;
+}
+.news-title-main {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.row-blog-messonary .custom-news-card .news-card-inner .news-card-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
 }
 
 @media (max-width: 768px) {
@@ -1359,6 +1533,7 @@ b{
     }
     .news-title {
         font-size: 22px;
+        margin-bottom: 50px;
     }
 
     .info-card,
@@ -1418,12 +1593,12 @@ b{
     }
 
     .news-button {
-        margin-top: 10px;
         text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
         bottom: 0;
         left: 0;
     }
-
     .news-side {
         display: none;
     }
