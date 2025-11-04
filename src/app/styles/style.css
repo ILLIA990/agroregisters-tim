@@ -670,6 +670,8 @@ b{
 .news-side {
     width: 275px;
     min-height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .news-side-logo-container {
     width: 100%;
@@ -1264,13 +1266,18 @@ b{
         font-size: 16px;
         text-align: center;
     }
-
-    .switch-buttons,.switch-button-2 {
+    .page .faq-container .faq-question h4 {
+        width: 350px;
+        margin: 0;
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+    .switch-buttons, .switch-button-2 {
         text-align: center;
         width: 100%;
-        padding: 8px;
-        font-size: 16px;
         margin: 5px 0;
+        padding: 8px 0;
+        font-size: 16px;
     }
 
     .button-container-instructions {
@@ -1609,5 +1616,13 @@ b{
     .spinner {
         width: 40px;
         height: 40px;
+    }
+    .page-notaries h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .page h3 {
+        font-size: 22px;
     }
 }

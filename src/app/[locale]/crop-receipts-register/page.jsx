@@ -37,7 +37,7 @@ export default function RarPage() {
 							<p>{t('block_first.text3')}</p>
 							<br />
 							<p>{t('block_first.text4')}</p>
-							<ul>
+							<ul className='custom-list'>
 								<li>{t('block_first.list2.0')}</li>
 								<li>{t('block_first.list2.1')}</li>
 								<li>{t('block_first.list2.2')}</li>

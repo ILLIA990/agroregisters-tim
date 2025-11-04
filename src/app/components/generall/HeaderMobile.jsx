@@ -190,10 +190,9 @@ const MobileHeader = () => {
 								<Link href='/map' onClick={handleLinkClick}>
 									{t('chapter4.text2')}
 								</Link>
-								<Link href='/history-of-success' className={`dropdown-item`}>
+								<Link href='/history-of-success' onClick={handleLinkClick}>
 									{t('chapter4.text4')}
 								</Link>
-
 								<Link href='/legal' onClick={handleLinkClick}>
 									{t('chapter4.text1')}
 								</Link>
