@@ -22,15 +22,21 @@ function Component1() {
 						{step.content.map((block, j) => {
 							if (block.type === 'paragraph') {
 								return (
-									<div key={j}>
-										<h2>
-											{block.bold ? <b>{block.text}</b> : block.text}{' '}
-											{block.link && (
+									<h2 key={j}>
+										<span
+											dangerouslySetInnerHTML={{
+												__html: block.bold
+													? `<b>${block.text}</b>`
+													: block.text,
+											}}
+										/>
+										{block.link && (
+											<>
+												{' '}
 												<a href={block.link.href}>{block.link.text}</a>
-											)}
-										</h2>
-										<br />
-									</div>
+											</>
+										)}
+									</h2>
 								)
 							}
 
@@ -55,124 +61,286 @@ function Component1() {
 	)
 }
 function Component2() {
-    const t = useTranslations('Component2');
+	const t = useTranslations('Component2')
 
-    return (
-        <div>
-            <h3 style={{ marginBottom: '50px' }}>{t('title')}</h3>
-            <ol type="1">
-                {[...Array(16)].map((_, i) => (
-                    <li key={i} className="notaries-algorithm-text" style={{ display: 'flex' }}>
-                        {i + 1}.
-                        <a
-                            href={`/notaries-users-manual-docs/${i + 1}.pdf`}
-                            style={{ marginLeft: '5px' }}
-                            target="_blank"
-                        >
-                            {t(`item${i + 1}`)}
-                        </a>
-                    </li>
-                ))}
+	const A = ({ href, label }) => (
+		<a href={href} target='_blank' rel='noopener noreferrer'>
+			{label}
+		</a>
+	)
 
-                <li className="notaries-algorithm-text">
-                    17.
-                    <a href="/notaries-users-manual-docs/17.pdf" target="_blank" style={{ marginLeft: '5px' }}>
-                        {t('item17.title')}
-                    </a>
-                    <ol type="a">
-                        {[...Array(8)].map((_, j) => (
-                            <li key={j}>
-                                <a
-                                    href={`/notaries-users-manual-docs/17-${String.fromCharCode(97 + j)}.pdf`}
-                                    target="_blank"
-                                >
-                                    {t(`item17.subitem${j + 1}`)}
-                                </a>
-                            </li>
-                        ))}
-                    </ol>
-                </li>
+	return (
+		<div>
+			<h3 style={{ marginBottom: 50 }}>{t('title')}</h3>
+			<ol type='1'>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/1.pdf' label={t('item1')} />
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/2.pdf' label={t('item2')} />
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/3.pdf' label={t('item3')} />
+					<ol type='a'>
+						<li>
+							<A href='/notaries-users-manual-docs/4.pdf' label={t('item4')} />
+						</li>
+						<li>
+							<A href='/notaries-users-manual-docs/5.pdf' label={t('item5')} />
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/6.pdf' label={t('item6')} />
+					<ol type='a'>
+						<li>
+							<A href='/notaries-users-manual-docs/7.pdf' label={t('item7')} />
+						</li>
+						<li>
+							<A href='/notaries-users-manual-docs/8.pdf' label={t('item8')} />
+						</li>
+						<li>
+							<A href='/notaries-users-manual-docs/9.pdf' label={t('item9')} />
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/10.pdf' label={t('item10')} />
+					<ol type='a'>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/11.pdf'
+								label={t('item11')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/12.pdf'
+								label={t('item12')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/13.pdf'
+								label={t('item13')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/14.pdf'
+								label={t('item14')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/15.pdf'
+								label={t('item15')}
+							/>
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/16.pdf' label={t('item16')} />
+					<ol type='a'>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/17.pdf'
+								label={t('item17.title')}
+							/>
+							<ol type='i'>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-a.pdf'
+										label={t('item17.subitem1')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-b.pdf'
+										label={t('item17.subitem2')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-c.pdf'
+										label={t('item17.subitem3')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-d.pdf'
+										label={t('item17.subitem4')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-e.pdf'
+										label={t('item17.subitem5')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-f.pdf'
+										label={t('item17.subitem6')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-g.pdf'
+										label={t('item17.subitem7')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/17-h.pdf'
+										label={t('item17.subitem8')}
+									/>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/18.pdf'
+								label={t('item18.title')}
+							/>
+							<ol type='i'>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-a.pdf'
+										label={t('item18.subitem1')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-b.pdf'
+										label={t('item18.subitem2')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-c.pdf'
+										label={t('item18.subitem3')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-d.pdf'
+										label={t('item18.subitem4')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-e.pdf'
+										label={t('item18.subitem5')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-f.pdf'
+										label={t('item18.subitem6')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-g.pdf'
+										label={t('item18.subitem7')}
+									/>
+								</li>
+								<li>
+									<A
+										href='/notaries-users-manual-docs/18-h.pdf'
+										label={t('item18.subitem8')}
+									/>
+								</li>
+							</ol>
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/19.pdf' label={t('item19')} />
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/20.pdf' label={t('item20')} />
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A
+						href='/notaries-users-manual-docs/21.pdf'
+						label={t('item21.title')}
+					/>
+					<ol type='i'>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-a.pdf'
+								label={t('item21.subitem1')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-b.pdf'
+								label={t('item21.subitem2')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-c.pdf'
+								label={t('item21.subitem3')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-d.pdf'
+								label={t('item21.subitem4')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-e.pdf'
+								label={t('item21.subitem5')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-f.pdf'
+								label={t('item21.subitem6')}
+							/>
+						</li>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/21-g.pdf'
+								label={t('item21.subitem7')}
+							/>
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/22.pdf' label={t('item22')} />
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/28.pdf' label={t('item28')} />
+					<ol type='a'>
+						<li>
+							<A
+								href='/notaries-users-manual-docs/29.pdf'
+								label={t('item29')}
+							/>
+						</li>
+					</ol>
+				</li>
+				<li className='notaries-algorithm-text'>
+					<A href='/notaries-users-manual-docs/30.pdf' label={t('item30')} />
+				</li>
+			</ol>
 
-                <li className="notaries-algorithm-text">
-                    18.
-                    <a href="/notaries-users-manual-docs/18.pdf" target="_blank" style={{ marginLeft: '5px' }}>
-                        {t('item18.title')}
-                    </a>
-                    <ol type="a">
-                        {[...Array(8)].map((_, j) => (
-                            <li key={j}>
-                                <a
-                                    href={`/notaries-users-manual-docs/18-${String.fromCharCode(97 + j)}.pdf`}
-                                    target="_blank"
-                                >
-                                    {t(`item18.subitem${j + 1}`)}
-                                </a>
-                            </li>
-                        ))}
-                    </ol>
-                </li>
-
-                <li className="notaries-algorithm-text">
-                    19.
-                    <a href="/notaries-users-manual-docs/19.pdf" style={{ marginLeft: '5px' }}>
-                        {t('item19')}
-                    </a>
-                </li>
-
-                <li className="notaries-algorithm-text">
-                    20.
-                    <a href="/notaries-users-manual-docs/20.pdf" target="_blank" style={{ marginLeft: '5px' }}>
-                        {t('item20')}
-                    </a>
-                </li>
-
-                <li className="notaries-algorithm-text">
-                    21.
-                    <a href="/notaries-users-manual-docs/21.pdf" target="_blank" style={{ marginLeft: '5px' }}>
-                        {t('item21.title')}
-                    </a>
-                    <ol type="a">
-                        {[...Array(7)].map((_, j) => (
-                            <li key={j}>
-                                <a
-                                    href={`/notaries-users-manual-docs/21-${String.fromCharCode(97 + j)}.pdf`}
-                                    target="_blank"
-                                >
-                                    {t(`item21.subitem${j + 1}`)}
-                                </a>
-                            </li>
-                        ))}
-                    </ol>
-                </li>
-
-                {[...Array(9)].map((_, i) => (
-                    <li
-                        key={i}
-                        className="notaries-algorithm-text"
-                        style={{ display: 'flex' }}
-                    >
-                        {22 + i}.
-                        <a
-                            href={`/notaries-users-manual-docs/${22 + i}.pdf`}
-                            style={{ marginLeft: '5px' }}
-                            target="_blank"
-                        >
-                            {t(`item${22 + i}`)}
-                        </a>
-                    </li>
-                ))}
-            </ol>
-
-            <a
-                className="btn-download"
-                href="/Full_user_guide_31-7-2025.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {t('downloadAll')}
-            </a>
-        </div>
-    );
+			<a
+				className='btn-download'
+				href='/Full_user_guide_31-7-2025.pdf'
+				target='_blank'
+				rel='noopener noreferrer'
+			>
+				{t('downloadAll')}
+			</a>
+		</div>
+	)
 }
 
 function Component3() {

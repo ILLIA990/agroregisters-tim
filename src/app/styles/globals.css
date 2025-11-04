@@ -108,8 +108,9 @@ summary {
   display: list-item
 }
 
-menu,ol,ul {
-  list-style: none
+menu, ol, ul {
+    list-style: revert-layer;
+    margin-left: 10px;
 }
 
 audio,canvas,embed,iframe,img,object,svg,video {
