@@ -256,6 +256,12 @@ section.important-section {
     margin: 50px 0;
     display: flex;
 }
+.page-k .admin-section {
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 }
 .text-block a,
 .ifc-section a {

@@ -1413,12 +1413,6 @@ b{
     font-weight: 700;
     line-height: 1.2;
 }
-.page-k .admin-section {
-    align-items: center;
-    gap: 40px;
-    padding-top: 100px;
-    padding-bottom: 0;
-}
 .page-k .ifc-section h1 {
     color: #22252e;
     width: auto;
